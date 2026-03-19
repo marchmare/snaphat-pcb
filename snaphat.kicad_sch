@@ -12271,7 +12271,7 @@
 		(uuid "10e56c73-8383-4e38-952a-316e472dd248")
 	)
 	(junction
-		(at 152.4 140.97)
+		(at 152.4 135.89)
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "11328eaf-b042-41db-8df5-0efa67c120f6")
@@ -12377,6 +12377,12 @@
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "43f5af83-444d-4c7c-95ad-f9156ade89df")
+	)
+	(junction
+		(at 160.02 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44dccf63-c507-4f36-9f39-2cd439baeafd")
 	)
 	(junction
 		(at 82.55 76.2)
@@ -12625,7 +12631,7 @@
 		(uuid "e0cc6ffd-5057-4656-a17b-6841c122b179")
 	)
 	(junction
-		(at 152.4 138.43)
+		(at 152.4 133.35)
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "e4f9543f-1e8d-4835-bae0-524659fa8683")
@@ -12697,7 +12703,28 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 146.05) (xy 154.94 146.05)
+			(xy 160.02 161.29) (xy 160.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007dff46-748e-4002-9932-b9753ca81661")
+	)
+	(wire
+		(pts
+			(xy 160.02 151.13) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(uuid "0238ae0d-c926-4dc1-9dac-830fd8f80e42")
+	)
+	(wire
+		(pts
+			(xy 149.86 140.97) (xy 154.94 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12958,7 +12985,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 148.59) (xy 154.94 148.59)
+			(xy 149.86 143.51) (xy 154.94 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13156,7 +13183,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 151.13) (xy 154.94 151.13)
+			(xy 149.86 146.05) (xy 154.94 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14050,7 +14077,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 140.97) (xy 152.4 158.75)
+			(xy 152.4 135.89) (xy 152.4 163.83)
 		)
 		(stroke
 			(width 0)
@@ -14236,7 +14263,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 143.51) (xy 154.94 143.51)
+			(xy 149.86 138.43) (xy 154.94 138.43)
 		)
 		(stroke
 			(width 0)
@@ -14928,7 +14955,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 156.21) (xy 154.94 156.21)
+			(xy 149.86 151.13) (xy 160.02 151.13)
 		)
 		(stroke
 			(width 0)
@@ -15443,7 +15470,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 153.67) (xy 154.94 153.67)
+			(xy 160.02 151.13) (xy 160.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30be03e-348b-4d2a-a2a2-7cedbd5c55d7")
+	)
+	(wire
+		(pts
+			(xy 149.86 148.59) (xy 154.94 148.59)
 		)
 		(stroke
 			(width 0)
@@ -15619,7 +15656,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 138.43) (xy 152.4 138.43)
+			(xy 149.86 133.35) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -15839,7 +15876,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 152.4 138.43)
+			(xy 152.4 129.54) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -16320,7 +16357,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 152.4 140.97)
+			(xy 149.86 135.89) (xy 152.4 135.89)
 		)
 		(stroke
 			(width 0)
@@ -16591,7 +16628,7 @@
 	)
 	(global_label "DISPLAY_SPI_CS"
 		(shape input)
-		(at 154.94 148.59 0)
+		(at 154.94 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16604,7 +16641,7 @@
 		)
 		(uuid "1e6a33ae-33f7-4781-a85d-54a444036f8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9838 148.59 0)
+			(at 172.9838 143.51 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17266,7 +17303,7 @@
 	)
 	(global_label "DISPLAY_BL"
 		(shape input)
-		(at 154.94 156.21 0)
+		(at 163.83 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17279,7 +17316,7 @@
 		)
 		(uuid "8800fdbc-7257-469a-a3ca-bd3d91721bff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7505 156.21 0)
+			(at 177.6405 151.13 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17509,7 +17546,7 @@
 	)
 	(global_label "DISPLAY_SPI_MOSI"
 		(shape input)
-		(at 154.94 143.51 0)
+		(at 154.94 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17522,7 +17559,7 @@
 		)
 		(uuid "b1025e55-b204-4f65-b5e9-45c27cfebe8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1005 143.51 0)
+			(at 175.1005 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17563,7 +17600,7 @@
 	)
 	(global_label "DISPLAY_SPI_SCLK"
 		(shape input)
-		(at 154.94 146.05 0)
+		(at 154.94 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17576,7 +17613,7 @@
 		)
 		(uuid "b79e8dd1-0d41-40dc-9c63-ecd3f1c5fdf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 146.05 0)
+			(at 175.2819 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17806,7 +17843,7 @@
 	)
 	(global_label "DISPLAY_DC"
 		(shape input)
-		(at 154.94 151.13 0)
+		(at 154.94 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17819,7 +17856,7 @@
 		)
 		(uuid "d6660c2c-0a1a-47c0-ac41-0b82986b9e49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.9924 151.13 0)
+			(at 168.9924 146.05 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17995,7 +18032,7 @@
 	)
 	(global_label "DISPLAY_RST"
 		(shape input)
-		(at 154.94 153.67 0)
+		(at 154.94 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18008,7 +18045,7 @@
 		)
 		(uuid "ec048561-1358-48fc-9dd1-ce2c17fede65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.8995 153.67 0)
+			(at 169.8995 148.59 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18774,7 +18811,7 @@
 	)
 	(symbol
 		(lib_id "library:TestPoint")
-		(at 152.4 140.97 270)
+		(at 152.4 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18782,7 +18819,7 @@
 		(dnp no)
 		(uuid "09df55bc-f7aa-45ed-9d68-a1ce9e96e5bb")
 		(property "Reference" "TP10"
-			(at 161.798 140.97 90)
+			(at 161.798 135.89 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18793,7 +18830,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 156.9719 138.43 0)
+			(at 156.9719 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18805,7 +18842,7 @@
 			)
 		)
 		(property "Footprint" "library:TestPoint_Pad_D1.5mm"
-			(at 152.4 146.05 0)
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18816,7 +18853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 146.05 0)
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18827,7 +18864,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 152.4 140.97 0)
+			(at 152.4 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18838,7 +18875,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 152.4 140.97 0)
+			(at 152.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24385,7 +24422,7 @@
 	)
 	(symbol
 		(lib_id "library:TestPoint")
-		(at 152.4 138.43 270)
+		(at 152.4 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24393,7 +24430,7 @@
 		(dnp no)
 		(uuid "4e9eafac-2fbe-4b8f-be1d-3fdfca6d3e87")
 		(property "Reference" "TP1"
-			(at 160.782 138.684 90)
+			(at 160.782 133.604 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24404,7 +24441,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 156.9719 135.89 0)
+			(at 156.9719 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24416,7 +24453,7 @@
 			)
 		)
 		(property "Footprint" "library:TestPoint_Pad_D1.5mm"
-			(at 152.4 143.51 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24427,7 +24464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 143.51 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24438,7 +24475,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 152.4 138.43 0)
+			(at 152.4 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24449,7 +24486,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 152.4 138.43 0)
+			(at 152.4 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30560,6 +30597,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88adb0bd-d772-4d0b-bb32-2cf354508937")
+		(property "Reference" "#PWR028"
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 165.0999 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0e13ea-689d-439a-8020-88e3532150c2")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:970110151")
 		(at 137.16 271.78 0)
 		(unit 1)
@@ -33552,7 +33666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 158.75 0)
+		(at 152.4 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33561,7 +33675,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6b14e63-8910-4de6-aeda-e0ec36725658")
 		(property "Reference" "#PWR04"
-			(at 152.4 165.1 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -33572,7 +33686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 160.0199 0)
+			(at 154.94 165.0999 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -33583,7 +33697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 158.75 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -33594,7 +33708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 158.75 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -33605,7 +33719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 158.75 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36092,6 +36206,127 @@
 		)
 	)
 	(symbol
+		(lib_id "library:R_10k_0402")
+		(at 160.02 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c72dde-1763-4ae2-a718-a514c66fd8bc")
+		(property "Reference" "R28"
+			(at 162.56 156.2099 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 162.56 158.7499 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:R_0402_1005Metric"
+			(at 158.242 157.48 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f54d66-3e47-4a1e-800a-ed5f89f1b4b9")
+		)
+		(pin "2"
+			(uuid "3b8f01cc-7e46-465e-b101-4a547ee295d5")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:INA219BIDR")
 		(at 255.27 59.69 0)
 		(unit 1)
@@ -36474,7 +36709,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 134.62 0)
+		(at 152.4 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36483,7 +36718,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca74a151-0bee-4a41-8369-a921d5b2be6b")
 		(property "Reference" "#PWR03"
-			(at 152.4 138.43 0)
+			(at 152.4 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36494,7 +36729,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 129.54 0)
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36504,7 +36739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 134.62 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36515,7 +36750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 134.62 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36526,7 +36761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 134.62 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36550,7 +36785,7 @@
 	)
 	(symbol
 		(lib_id "library:Conn_01x08_S8B-PH-K-S(LF)(SN)")
-		(at 144.78 146.05 0)
+		(at 144.78 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36559,7 +36794,7 @@
 		(dnp no)
 		(uuid "cd617c63-5add-4579-8068-0b59da2bca8d")
 		(property "Reference" "J1"
-			(at 144.78 159.258 0)
+			(at 144.78 154.178 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36569,7 +36804,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_S8B-PH-K-S(LF)(SN)"
-			(at 141.732 148.59 90)
+			(at 141.732 143.51 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36579,7 +36814,7 @@
 			)
 		)
 		(property "Footprint" "library:DW08R"
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36590,7 +36825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36601,7 +36836,7 @@
 			)
 		)
 		(property "Description" "Pin Header, Wire-to-Board, 2 mm, 1 Rows, 8 Contacts, Through Hole Right Angle, PH"
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36612,7 +36847,7 @@
 			)
 		)
 		(property "Part number" "S8B-PH-K-S(LF)(SN)"
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36623,7 +36858,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -36634,7 +36869,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 144.78 146.05 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
