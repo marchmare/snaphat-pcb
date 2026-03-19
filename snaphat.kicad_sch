@@ -40911,7 +40911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff626cc1-dc27-41a4-8503-d1664fd78744")
-		(property "Reference" "U4"
+		(property "Reference" "SW9"
 			(at 377.19 126.492 0)
 			(effects
 				(font
@@ -41027,7 +41027,7 @@
 		(instances
 			(project ""
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "U4")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
