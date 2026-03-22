@@ -12,6 +12,97 @@
 		(comment 2 "GitHub:")
 	)
 	(lib_symbols
+		(symbol "library:01SPHSPH-26L-150"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 4.064 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "01SPHSPH-26L-150"
+				(at 4.064 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Miscellaneous component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "01SPHSPH-26L-150"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Double ended 150mm crimp contact wire"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "01SPHSPH-26L-150_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:1386735"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -194,7 +285,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:970110151"
+		(symbol "library:9774020951R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -207,7 +298,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "970110151"
+			(property "Value" "9774020951R"
 				(at 4.064 -2.794 0)
 				(effects
 					(font
@@ -216,7 +307,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "library:970110151"
+			(property "Footprint" "library:Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951"
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,7 +325,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 11 mm"
+			(property "Description" "WA-SMST SMT Steel Spacer with through hole Ø 2.7 H 2mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -243,98 +334,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part number" "970110151"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Fasteners"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "970110151_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "library:9774030633R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 4.064 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "9774030633R"
-				(at 4.064 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M1.6, 3mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part number" "9774030633R"
+			(property "Part number" "9774020951R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -351,7 +351,205 @@
 					)
 				)
 			)
-			(symbol "9774030633R_1_1"
+			(symbol "9774020951R_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "library:9774030151R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 4.064 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "9774030151R"
+				(at 4.064 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "9774030151R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 12.192 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "9774030151R_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "library:9774100151R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 4.064 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "9774100151R"
+				(at 4.064 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 10mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "9774100151R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 12.192 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "9774100151R_1_1"
 				(rectangle
 					(start 0 0)
 					(end 2.54 -2.54)
@@ -3994,188 +4192,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:M1.6x4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 4.064 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "M1.6x4"
-				(at 4.064 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Screw; M1.6x4; 0.35; Head: cheese head; Phillips; PH0; steel; zinc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part number" "1944940"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BOSSARD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Fasteners"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "M1.6x4_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "library:M2.5_nut"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 4.064 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "M2.5 nut"
-				(at 4.064 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Nut; hexagonal; M2,5; 0.45; steel; Plating: zinc; H: 2mm; 5mm; BN 109"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part number" "1088254"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BOSSARD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Fasteners"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "M2.5_nut_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "library:M2.5x12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5960,97 +5976,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "library:SPH-002T-P0.5S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 4.064 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SPH-002T-P0.5S"
-				(at 4.064 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part number" "SPH-002T-P0.5S"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Wire harness"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SPH-002T-P0.5S_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -7894,7 +7819,7 @@
 	)
 	(rectangle
 		(start 339.09 66.04)
-		(end 397.51 100.33)
+		(end 397.51 111.76)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7932,7 +7857,7 @@
 	)
 	(rectangle
 		(start 116.84 114.3)
-		(end 214.63 173.99)
+		(end 255.27 173.99)
 		(stroke
 			(width 0)
 			(type solid)
@@ -8111,20 +8036,6 @@
 		)
 		(uuid "35042649-a6f0-4256-ad43-ea362d6c00ad")
 	)
-	(text "RPi standoffs:"
-		(exclude_from_sim no)
-		(at 133.858 263.398 0)
-		(effects
-			(font
-				(face "Quicksand")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 42 101 127 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d41c81f-f47a-4483-87ed-0e5ef2d9f72c")
-	)
 	(text "GPIO27"
 		(exclude_from_sim no)
 		(at 63.5 55.88 0)
@@ -8194,20 +8105,6 @@
 			(justify left bottom)
 		)
 		(uuid "55eecd12-8f4d-4cee-93dc-079fb45fc1c4")
-	)
-	(text "Replace with M2.5"
-		(exclude_from_sim no)
-		(at 92.964 281.432 0)
-		(effects
-			(font
-				(face "Quicksand")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 42 101 127 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6306db4d-9951-401c-8854-baeb6e3e7fff")
 	)
 	(text "GPIO24"
 		(exclude_from_sim no)
@@ -8310,7 +8207,7 @@
 	)
 	(text "Display SMD spacers:"
 		(exclude_from_sim no)
-		(at 92.964 263.398 0)
+		(at 221.234 126.238 0)
 		(effects
 			(font
 				(face "Quicksand")
@@ -8630,6 +8527,12 @@
 		(uuid "11328eaf-b042-41db-8df5-0efa67c120f6")
 	)
 	(junction
+		(at 355.6 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1204d923-d987-467c-969c-a2049cd1088e")
+	)
+	(junction
 		(at 107.95 209.55)
 		(diameter 0)
 		(color 38 87 104 1)
@@ -8640,6 +8543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e32a475-14b9-4a81-8abf-a800436600f7")
+	)
+	(junction
+		(at 355.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21aae81f-9679-4bc9-b396-6ae4fda90a80")
 	)
 	(junction
 		(at 107.95 240.03)
@@ -8688,6 +8597,12 @@
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "5e95a5f0-c50a-4c73-a77c-4621d692fa6f")
+	)
+	(junction
+		(at 355.6 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e2c3634-d106-4fbc-859b-eeccb23ad2fb")
 	)
 	(junction
 		(at 123.19 222.25)
@@ -9161,6 +9076,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 97.79) (xy 361.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a82151-40f5-4b56-b302-6846d5037649")
+	)
+	(wire
+		(pts
 			(xy 307.34 59.69) (xy 325.12 59.69)
 		)
 		(stroke
@@ -9365,6 +9290,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "36af93bd-8000-4350-a40e-0f4bcf112b38")
+	)
+	(wire
+		(pts
+			(xy 353.06 105.41) (xy 355.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cba457-5114-4932-9b37-d626f67268b5")
 	)
 	(wire
 		(pts
@@ -9823,6 +9758,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 97.79) (xy 355.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6796ee45-f2c3-49e2-9121-89338920a22c")
+	)
+	(wire
+		(pts
 			(xy 123.19 212.09) (xy 123.19 209.55)
 		)
 		(stroke
@@ -10012,6 +9957,16 @@
 			(type default)
 		)
 		(uuid "76647bea-d368-4175-af20-a02062f94662")
+	)
+	(wire
+		(pts
+			(xy 355.6 101.6) (xy 355.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ce31b0-19cf-4131-a5a2-c5e2f7a8be54")
 	)
 	(wire
 		(pts
@@ -10319,6 +10274,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 101.6) (xy 355.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90972e1e-b73f-45fb-ab6a-fe16b3c5029a")
+	)
+	(wire
+		(pts
 			(xy 107.95 209.55) (xy 110.49 209.55)
 		)
 		(stroke
@@ -10531,6 +10496,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 109.22) (xy 355.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7609d55-4bf8-4d70-9d84-42f2a73e7a12")
+	)
+	(wire
+		(pts
 			(xy 266.7 45.72) (xy 266.7 46.99)
 		)
 		(stroke
@@ -10658,6 +10633,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "b896ddb9-9641-4a1a-859f-45b8d69db2e4")
+	)
+	(wire
+		(pts
+			(xy 355.6 105.41) (xy 355.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba40f5c9-3bcc-4ade-b527-b0ddab865fda")
 	)
 	(wire
 		(pts
@@ -11014,6 +10999,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 109.22) (xy 355.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b736d1-bcfd-4087-b229-30cecf97a425")
+	)
+	(wire
+		(pts
 			(xy 187.96 209.55) (xy 190.5 209.55)
 		)
 		(stroke
@@ -11289,6 +11284,16 @@
 			(justify left bottom)
 		)
 		(uuid "254df26a-bb85-46b0-961b-871dbb58f243")
+	)
+	(label "GND_EXT"
+		(at 361.95 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25504472-eb3d-403d-b27b-455fa3ea5cbf")
 	)
 	(label "USBC_EXT_DATA_P"
 		(at 370.84 77.47 180)
@@ -12570,6 +12575,88 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774030151R")
+		(at 224.79 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015bc328-ec23-4d6e-bf97-cf41dddad870")
+		(property "Reference" "H26"
+			(at 226.06 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774030151R"
+			(at 226.06 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 3mm"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774030151R"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 226.06 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbb8d6f5-2631-4420-8a51-d868076854d3")
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:B32-2010")
 		(at 185.42 240.03 0)
 		(unit 1)
@@ -12684,38 +12771,39 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M2.5x5")
-		(at 153.67 264.16 0)
+		(lib_id "power:GND")
+		(at 29.21 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "040d6816-ea2e-49c9-9885-c6ad731c3551")
-		(property "Reference" "H37"
-			(at 150.114 265.43 0)
+		(fields_autoplaced yes)
+		(uuid "03918309-c0e2-4392-8aaa-cc5652dbc0aa")
+		(property "Reference" "#PWR026"
+			(at 35.56 96.52 0)
 			(effects
 				(font
 					(face "Quicksand")
 					(size 1.27 1.27)
 					(color 42 101 127 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "M2.5x5"
-			(at 156.718 265.43 0)
+		(property "Value" "GND"
+			(at 33.02 96.5199 90)
 			(effects
 				(font
 					(face "Quicksand")
 					(size 1.27 1.27)
 					(color 42 101 127 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 264.16 0)
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12726,7 +12814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 264.16 0)
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12736,8 +12824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 153.67 264.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12747,49 +12835,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "M2.5X5/D7985"
-			(at 153.67 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KRAFTBERG"
-			(at 153.67 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 153.67 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 153.67 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "1"
+			(uuid "cc16a5f3-0015-4392-850a-f3d7f1f27cab")
 		)
 		(instances
-			(project ""
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H37")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13335,118 +13387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cf6cd70-2295-4ae2-8917-30247739ae9f")
-		(property "Reference" "H20"
-			(at 190.754 149.86 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 149.86 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:B32-2010")
 		(at 200.66 240.03 0)
 		(unit 1)
@@ -13561,120 +13501,8 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ff98dce-51f0-464a-9498-c3842ca0def2")
-		(property "Reference" "H23"
-			(at 190.754 161.29 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 161.29 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 101.6 273.05 90)
+		(at 229.87 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13683,7 +13511,7 @@
 		(fields_autoplaced yes)
 		(uuid "10362f50-190c-41a2-9785-802b223c52a3")
 		(property "Reference" "#PWR053"
-			(at 107.95 273.05 0)
+			(at 236.22 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13694,7 +13522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 273.05 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13705,7 +13533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 273.05 0)
+			(at 229.87 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13716,7 +13544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 273.05 0)
+			(at 229.87 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13727,7 +13555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 273.05 0)
+			(at 229.87 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14034,93 +13862,42 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M1.6x4")
-		(at 120.65 264.16 0)
+		(lib_id "library:9774100151R")
+		(at 24.13 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "143dec1d-f84c-4877-ab78-54c86932a6b7")
-		(property "Reference" "H33"
-			(at 117.094 265.43 0)
+		(fields_autoplaced yes)
+		(uuid "12a192be-034f-4991-9ff2-524c78a19a54")
+		(property "Reference" "H32"
+			(at 25.4 91.44 90)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "M1.6x4"
-			(at 123.698 265.43 0)
+		(property "Value" "9774100151R"
+			(at 25.4 93.98 90)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.65 264.16 0)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R"
+			(at 24.13 101.6 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Screw; M1.6x4; 0.35; Head: cheese head; Phillips; PH0; steel; zinc"
-			(at 120.65 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "1944940"
-			(at 120.65 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOSSARD"
-			(at 120.65 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 120.65 264.16 0)
+			(at 24.13 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,18 +13905,39 @@
 				(hide yes)
 			)
 		)
-		(property "Part name" ""
-			(at 120.65 264.16 0)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 10mm"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774100151R"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "687a6c13-3766-4bcd-bfc4-3b9dcf31205b")
 		)
 		(instances
-			(project ""
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H33")
+					(reference "H32")
 					(unit 1)
 				)
 			)
@@ -14147,7 +13945,7 @@
 	)
 	(symbol
 		(lib_id "library:M2.5x8")
-		(at 168.91 264.16 0)
+		(at 43.18 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14155,7 +13953,7 @@
 		(dnp no)
 		(uuid "17315fd5-236a-47fd-ac69-bea9dd59a8c1")
 		(property "Reference" "H40"
-			(at 165.1 265.43 0)
+			(at 39.37 91.44 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14166,7 +13964,7 @@
 			)
 		)
 		(property "Value" "M2.5x8"
-			(at 171.958 265.43 0)
+			(at 46.228 91.44 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14177,7 +13975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14188,7 +13986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14199,7 +13997,7 @@
 			)
 		)
 		(property "Description" "Screw; M2.5x8; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14210,7 +14008,7 @@
 			)
 		)
 		(property "Part number" "M2.5X8/D7985"
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14221,7 +14019,7 @@
 			)
 		)
 		(property "Manufacturer" "KRAFTBERG"
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14232,7 +14030,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14241,7 +14039,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 168.91 264.16 0)
+			(at 43.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14342,118 +14140,6 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20967212-9592-4835-9c98-b0d7b1172a9e")
-		(property "Reference" "H25"
-			(at 190.754 168.91 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 168.91 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H25")
 					(unit 1)
 				)
 			)
@@ -14688,6 +14374,165 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774020951R")
+		(at 347.98 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275ebb58-ea3e-49a6-852c-2a984dfbb0fa")
+		(property "Reference" "H34"
+			(at 349.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774020951R"
+			(at 349.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMST SMT Steel Spacer with through hole Ø 2.7 H 2mm"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774020951R"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 349.25 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01539317-1404-4988-9b9b-8f84029df24b")
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c6f5588-2d18-4945-8fa0-b92bba34f186")
+		(property "Reference" "#PWR029"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 100.3299 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9d2c47-798d-4ba4-a0d1-987d898db4f7")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:Conn_01x04_SFV4R-3STBE1HLF/C")
 		(at 332.74 74.93 0)
 		(unit 1)
@@ -14773,111 +14618,6 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:9774030633R")
-		(at 96.52 278.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "312ff149-83a1-476d-bb16-c2fe81db36a7")
-		(property "Reference" "H29"
-			(at 94.488 276.86 90)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Value" "9774030633R"
-			(at 109.982 276.86 90)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633"
-			(at 96.52 278.13 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 278.13 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M1.6, 3mm"
-			(at 96.52 278.13 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "9774030633R"
-			(at 96.52 278.13 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 100.3299 274.32 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 96.52 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3180d17-21c0-47f7-8a46-5b217da329fb")
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H29")
 					(unit 1)
 				)
 			)
@@ -15507,16 +15247,16 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M1.6x4")
-		(at 120.65 271.78 0)
+		(lib_id "library:M2.5x5")
+		(at 238.76 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4115d771-3fc6-4e2b-bfa5-afc120ea66e2")
-		(property "Reference" "H35"
-			(at 117.094 273.05 0)
+		(uuid "428f1d1f-9d4a-4b63-bbb7-49199bd18aa0")
+		(property "Reference" "H56"
+			(at 235.204 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15526,8 +15266,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M1.6x4"
-			(at 123.698 273.05 0)
+		(property "Value" "M2.5x5"
+			(at 241.808 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15538,7 +15278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 271.78 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15549,7 +15289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 271.78 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15559,8 +15299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Screw; M1.6x4; 0.35; Head: cheese head; Phillips; PH0; steel; zinc"
-			(at 120.65 271.78 0)
+		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15570,8 +15310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "1944940"
-			(at 120.65 271.78 0)
+		(property "Part number" "M2.5X5/D7985"
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15581,8 +15321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOSSARD"
-			(at 120.65 271.78 0)
+		(property "Manufacturer" "KRAFTBERG"
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15593,7 +15333,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 120.65 271.78 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,7 +15342,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 120.65 271.78 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15610,9 +15350,9 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H35")
+					(reference "H56")
 					(unit 1)
 				)
 			)
@@ -15689,6 +15429,118 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:PHR-8")
+		(at 194.31 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4339a603-577d-4bd6-94da-41716c6ccba8")
+		(property "Reference" "H18"
+			(at 191.262 142.24 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PHR-8"
+			(at 197.358 142.24 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HOUSING, 8WAY"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "PHR-8"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Wire harness"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H18")
 					(unit 1)
 				)
 			)
@@ -15913,6 +15765,97 @@
 			(project ""
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d162e7-4572-45c3-9ce0-f252723c22f5")
+		(property "Reference" "H22"
+			(at 198.12 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H22")
 					(unit 1)
 				)
 			)
@@ -16508,118 +16451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ca139e0-3061-4e6b-b279-42eab9f6e9cc")
-		(property "Reference" "H18"
-			(at 191.262 142.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 142.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:TestPoint")
 		(at 152.4 133.35 270)
 		(unit 1)
@@ -16899,6 +16730,97 @@
 		)
 	)
 	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52540cd0-7201-4a89-89e1-7f9e0c654784")
+		(property "Reference" "H52"
+			(at 198.12 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:R_1k_0402")
 		(at 59.69 153.67 90)
 		(unit 1)
@@ -17018,7 +16940,7 @@
 	)
 	(symbol
 		(lib_id "library:M2.5x8")
-		(at 168.91 275.59 0)
+		(at 43.18 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17026,7 +16948,7 @@
 		(dnp no)
 		(uuid "52be388c-358f-453d-bf6b-32b9d890661e")
 		(property "Reference" "H43"
-			(at 165.354 276.86 0)
+			(at 39.624 102.87 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17037,7 +16959,7 @@
 			)
 		)
 		(property "Value" "M2.5x8"
-			(at 171.958 276.86 0)
+			(at 46.228 102.87 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17048,7 +16970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17059,7 +16981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17070,7 +16992,7 @@
 			)
 		)
 		(property "Description" "Screw; M2.5x8; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17081,7 +17003,7 @@
 			)
 		)
 		(property "Part number" "M2.5X8/D7985"
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17092,7 +17014,7 @@
 			)
 		)
 		(property "Manufacturer" "KRAFTBERG"
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17103,7 +17025,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17112,7 +17034,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 168.91 275.59 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,105 +17051,91 @@
 		)
 	)
 	(symbol
-		(lib_id "library:9774030633R")
-		(at 96.52 274.32 90)
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57c99ce1-2544-431e-a688-4d5276b8da12")
-		(property "Reference" "H26"
-			(at 94.488 273.05 90)
+		(fields_autoplaced yes)
+		(uuid "557bcc72-0d75-4b8f-858c-1704ad1cc8d3")
+		(property "Reference" "H21"
+			(at 198.12 152.3999 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "9774030633R"
-			(at 109.982 273.05 90)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 154.9399 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633"
-			(at 96.52 274.32 0)
+		(property "Footprint" ""
+			(at 194.31 152.4 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 274.32 0)
+			(at 194.31 152.4 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M1.6, 3mm"
-			(at 96.52 274.32 0)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 152.4 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
-		(property "Part number" "9774030633R"
-			(at 96.52 274.32 0)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 152.4 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 100.3299 270.51 0)
+		(property "Manufacturer" "JST"
+			(at 194.31 152.4 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Part name" ""
-			(at 96.52 274.32 0)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "96106350-04a4-403c-ba4b-4b46279f3ed2")
 		)
 		(instances
-			(project ""
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H26")
+					(reference "H21")
 					(unit 1)
 				)
 			)
@@ -17463,6 +17371,97 @@
 		)
 	)
 	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597b8cfd-d157-48f1-9499-aad1c2579f13")
+		(property "Reference" "H25"
+			(at 198.12 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:B32-2010")
 		(at 200.66 243.84 0)
 		(unit 1)
@@ -17571,118 +17570,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:970110151")
-		(at 137.16 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c5944db-007d-4e40-a7a5-2cd4563ed48b")
-		(property "Reference" "H30"
-			(at 133.604 265.43 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "970110151"
-			(at 140.208 265.43 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:970110151"
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 11 mm"
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "970110151"
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 137.16 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H30")
 					(unit 1)
 				)
 			)
@@ -18374,93 +18261,42 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M1.6x4")
-		(at 120.65 275.59 0)
+		(lib_id "library:9774020951R")
+		(at 347.98 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64e72723-c7d8-4ff5-8e7e-8d3ee445bff3")
-		(property "Reference" "H36"
-			(at 117.094 276.86 0)
+		(fields_autoplaced yes)
+		(uuid "65e7044a-923a-492c-825a-fcb658f4e885")
+		(property "Reference" "H35"
+			(at 349.25 92.71 90)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "M1.6x4"
-			(at 123.698 276.86 0)
+		(property "Value" "9774020951R"
+			(at 349.25 95.25 90)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.65 275.59 0)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951"
+			(at 347.98 102.87 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
-					(color 42 101 127 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 275.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Screw; M1.6x4; 0.35; Head: cheese head; Phillips; PH0; steel; zinc"
-			(at 120.65 275.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "1944940"
-			(at 120.65 275.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOSSARD"
-			(at 120.65 275.59 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 120.65 275.59 0)
+			(at 347.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18468,18 +18304,39 @@
 				(hide yes)
 			)
 		)
-		(property "Part name" ""
-			(at 120.65 275.59 0)
+		(property "Description" "WA-SMST SMT Steel Spacer with through hole Ø 2.7 H 2mm"
+			(at 347.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774020951R"
+			(at 347.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 349.25 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "e1db29e5-6811-4988-9331-a0729cfa8748")
 		)
 		(instances
-			(project "library"
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H36")
+					(reference "H35")
 					(unit 1)
 				)
 			)
@@ -18848,7 +18705,7 @@
 	)
 	(symbol
 		(lib_id "library:M2.5x8")
-		(at 168.91 267.97 0)
+		(at 43.18 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18856,7 +18713,7 @@
 		(dnp no)
 		(uuid "711485f1-e8c1-4ffa-8f8e-a66ffec4b5b2")
 		(property "Reference" "H41"
-			(at 165.608 269.24 0)
+			(at 39.878 95.25 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18867,7 +18724,7 @@
 			)
 		)
 		(property "Value" "M2.5x8"
-			(at 171.958 269.24 0)
+			(at 46.228 95.25 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18878,7 +18735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18889,7 +18746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18900,7 +18757,7 @@
 			)
 		)
 		(property "Description" "Screw; M2.5x8; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18911,7 +18768,7 @@
 			)
 		)
 		(property "Part number" "M2.5X8/D7985"
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18922,7 +18779,7 @@
 			)
 		)
 		(property "Manufacturer" "KRAFTBERG"
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18933,7 +18790,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18942,7 +18799,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 168.91 267.97 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18953,6 +18810,88 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:9774100151R")
+		(at 24.13 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "718e3265-87f3-4fff-b4ac-f6675cad4504")
+		(property "Reference" "H30"
+			(at 25.4 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774100151R"
+			(at 25.4 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 10mm"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774100151R"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "370a4f8b-2a7f-4ac9-81e1-77fdfa187ae3")
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H30")
 					(unit 1)
 				)
 			)
@@ -19121,6 +19060,97 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fd8a45-da22-48b4-8ea0-130211473256")
+		(property "Reference" "H23"
+			(at 198.12 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H23")
 					(unit 1)
 				)
 			)
@@ -19649,118 +19679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M1.6x4")
-		(at 120.65 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b73a2b0-3f4d-4378-a7d2-3f520783edb3")
-		(property "Reference" "H34"
-			(at 117.094 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M1.6x4"
-			(at 123.698 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Screw; M1.6x4; 0.35; Head: cheese head; Phillips; PH0; steel; zinc"
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "1944940"
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOSSARD"
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 100.33 0)
 		(unit 1)
@@ -19837,120 +19755,8 @@
 		)
 	)
 	(symbol
-		(lib_id "library:970110151")
-		(at 137.16 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d7c73ea-996a-433d-a07f-476d156900e2")
-		(property "Reference" "H31"
-			(at 134.112 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "970110151"
-			(at 140.208 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:970110151"
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 11 mm"
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "970110151"
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 137.16 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 101.6 269.24 90)
+		(at 229.87 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19959,7 +19765,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9cfa12-d757-4093-b7d1-a0c989f3d19a")
 		(property "Reference" "#PWR051"
-			(at 107.95 269.24 0)
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19970,7 +19776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 269.24 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19981,7 +19787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 269.24 0)
+			(at 229.87 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19992,7 +19798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 269.24 0)
+			(at 229.87 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20003,7 +19809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 269.24 0)
+			(at 229.87 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20326,6 +20132,97 @@
 		)
 	)
 	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874cd114-022d-4036-9200-84a26a9c5628")
+		(property "Reference" "H24"
+			(at 198.12 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 163.83 0)
 		(unit 1)
@@ -20397,118 +20294,6 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:970110151")
-		(at 137.16 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "893905f0-7d87-46d3-b5ed-9c9bfaed40cd")
-		(property "Reference" "H32"
-			(at 133.604 273.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "970110151"
-			(at 140.208 273.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:970110151"
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 11 mm"
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "970110151"
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 137.16 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H32")
 					(unit 1)
 				)
 			)
@@ -20635,6 +20420,97 @@
 		)
 	)
 	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c3bf21-8513-472c-8e57-2ae19a1948e4")
+		(property "Reference" "H20"
+			(at 198.12 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:PHR-8")
 		(at 194.31 137.16 0)
 		(unit 1)
@@ -20747,36 +20623,121 @@
 		)
 	)
 	(symbol
-		(lib_id "library:9774030633R")
-		(at 96.52 270.51 90)
+		(lib_id "library:9774100151R")
+		(at 24.13 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8f002c22-4e78-4276-bf3e-750498ccac00")
-		(property "Reference" "H28"
-			(at 94.488 269.24 90)
+		(fields_autoplaced yes)
+		(uuid "8a9ada90-23f5-4480-9c6f-6c650781e95e")
+		(property "Reference" "H31"
+			(at 25.4 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774100151R"
+			(at 25.4 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 10mm"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774100151R"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85945aa3-f4bf-48aa-b8a0-33976fc552e8")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b439eda-8915-42b8-ac7f-a379f4a61c62")
+		(property "Reference" "#PWR024"
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(face "Quicksand")
 					(size 1.27 1.27)
 					(color 42 101 127 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "9774030633R"
-			(at 110.236 269.24 90)
+		(property "Value" "GND"
+			(at 33.02 92.7099 90)
 			(effects
 				(font
 					(face "Quicksand")
 					(size 1.27 1.27)
 					(color 42 101 127 1)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633"
-			(at 96.52 270.51 0)
+		(property "Footprint" ""
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20787,7 +20748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 270.51 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20797,8 +20758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M1.6, 3mm"
-			(at 96.52 270.51 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20808,19 +20769,29 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "9774030633R"
-			(at 96.52 270.51 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
+		(pin "1"
+			(uuid "3eeb4f86-7e0d-4937-829f-f1973c50d7d7")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "#PWR024")
+					(unit 1)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 100.3299 266.7 0)
+	)
+	(symbol
+		(lib_id "library:M2.5x5")
+		(at 238.76 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f8de2ac-2ee2-4acf-af50-4260ff865d60")
+		(property "Reference" "H55"
+			(at 235.204 135.89 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20828,24 +20799,95 @@
 					(color 42 101 127 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "M2.5x5"
+			(at 241.808 135.89 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M2.5X5/D7985"
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KRAFTBERG"
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Fasteners"
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Part name" ""
-			(at 96.52 270.51 0)
+			(at 238.76 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "1bb3ac83-2411-4ad0-9545-90f0a4dfa9f1")
-		)
 		(instances
-			(project "library"
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H28")
+					(reference "H55")
 					(unit 1)
 				)
 			)
@@ -20928,118 +20970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M2.5x5")
-		(at 153.67 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93856bd2-f91f-4c4f-9f3f-b3456e8ab46d")
-		(property "Reference" "H39"
-			(at 150.114 273.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5x5"
-			(at 156.718 273.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "M2.5X5/D7985"
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KRAFTBERG"
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 153.67 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:P70-6000045R")
 		(at 370.84 72.39 270)
 		(mirror x)
@@ -21106,7 +21036,7 @@
 	)
 	(symbol
 		(lib_id "library:M2.5x8")
-		(at 168.91 271.78 0)
+		(at 43.18 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21114,7 +21044,7 @@
 		(dnp no)
 		(uuid "9a0a2539-0045-4993-a56d-b6c86b0960c1")
 		(property "Reference" "H42"
-			(at 165.1 273.05 0)
+			(at 39.37 99.06 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21125,7 +21055,7 @@
 			)
 		)
 		(property "Value" "M2.5x8"
-			(at 171.958 273.05 0)
+			(at 46.228 99.06 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21136,7 +21066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21147,7 +21077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21158,7 +21088,7 @@
 			)
 		)
 		(property "Description" "Screw; M2.5x8; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21169,7 +21099,7 @@
 			)
 		)
 		(property "Part number" "M2.5X8/D7985"
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21180,7 +21110,7 @@
 			)
 		)
 		(property "Manufacturer" "KRAFTBERG"
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -21191,7 +21121,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21200,7 +21130,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 168.91 271.78 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21211,118 +21141,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d37cbce-a570-4d27-9822-e4777011f8ff")
-		(property "Reference" "H22"
-			(at 190.754 157.48 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 157.48 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H22")
 					(unit 1)
 				)
 			)
@@ -21400,118 +21218,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f1d3644-50dd-403e-a1bd-c6c62fa0b3a4")
-		(property "Reference" "H19"
-			(at 191.262 146.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 146.05 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H19")
 					(unit 1)
 				)
 			)
@@ -21701,118 +21407,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3de83ea-5562-4bb5-a2b6-5be04c6fb52a")
-		(property "Reference" "H21"
-			(at 191.008 153.67 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 153.67 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H21")
 					(unit 1)
 				)
 			)
@@ -22585,118 +22179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M2.5x5")
-		(at 153.67 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4e0bdcb-1285-4cec-9793-cad5dd36c73e")
-		(property "Reference" "H38"
-			(at 150.114 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5x5"
-			(at 156.718 269.24 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "M2.5X5/D7985"
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KRAFTBERG"
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Fasteners"
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 153.67 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:SW_B3FS-1050")
 		(at 115.57 224.79 0)
 		(unit 1)
@@ -22888,6 +22370,88 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774030151R")
+		(at 224.79 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f07523-5a09-446a-b681-73a0e1e37221")
+		(property "Reference" "H29"
+			(at 226.06 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774030151R"
+			(at 226.06 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 3mm"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774030151R"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 226.06 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d96cb6b8-a186-4289-9ecd-e0dfa7d525b5")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:M2.5x12")
 		(at 201.93 271.78 0)
 		(unit 1)
@@ -22994,6 +22558,97 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:01SPHSPH-26L-150")
+		(at 194.31 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4ade44-3147-4f5d-b38f-3fa651f04786")
+		(property "Reference" "H19"
+			(at 198.12 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "01SPHSPH-26L-150"
+			(at 198.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miscellaneous component"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "01SPHSPH-26L-150"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Double ended 150mm crimp contact wire"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H19")
 					(unit 1)
 				)
 			)
@@ -23422,6 +23077,88 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774100151R")
+		(at 24.13 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a40344-ca7d-49c1-990c-6d7c689977d7")
+		(property "Reference" "H33"
+			(at 25.4 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774100151R"
+			(at 25.4 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 10mm"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774100151R"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 25.4 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cea7fe7a-cc7d-4141-8557-454a473560b5")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:ODS105")
 		(at 105.41 100.33 0)
 		(unit 1)
@@ -23534,6 +23271,88 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774020951R")
+		(at 347.98 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e85c43-966f-46d7-a091-4e4430973561")
+		(property "Reference" "H37"
+			(at 349.25 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774020951R"
+			(at 349.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951"
+			(at 347.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMST SMT Steel Spacer with through hole Ø 2.7 H 2mm"
+			(at 347.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774020951R"
+			(at 347.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 349.25 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "084b5fc9-baa8-4fbe-bd30-65e08c04f243")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 129.54 0)
 		(unit 1)
@@ -23604,6 +23423,83 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb46b1c7-0c4d-442e-b078-bb67a053b559")
+		(property "Reference" "#PWR030"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 104.1399 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "857f3649-b842-41f9-b0b8-ca42d50f608f")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -23737,7 +23633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 276.86 90)
+		(at 229.87 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23746,7 +23642,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda3b41f-6f75-47bd-8cf8-0485764a5879")
 		(property "Reference" "#PWR052"
-			(at 107.95 276.86 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -23757,7 +23653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 276.86 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -23768,7 +23664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 276.86 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -23779,7 +23675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 276.86 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -23790,7 +23686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 276.86 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -23807,111 +23703,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:9774030633R")
-		(at 96.52 266.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdba2560-0d56-4c0f-9c20-99f4d47d4930")
-		(property "Reference" "H27"
-			(at 94.488 265.43 90)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Value" "9774030633R"
-			(at 109.982 265.43 90)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633"
-			(at 96.52 266.7 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 266.7 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M1.6, 3mm"
-			(at 96.52 266.7 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "9774030633R"
-			(at 96.52 266.7 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 100.3299 262.89 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 96.52 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be1c1886-1a7a-4d32-a298-d2096dec0cea")
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H27")
 					(unit 1)
 				)
 			)
@@ -24543,7 +24334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 265.43 90)
+		(at 229.87 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24551,7 +24342,7 @@
 		(dnp no)
 		(uuid "df76bd89-49c9-4f8c-9a5b-929ff9cc9726")
 		(property "Reference" "#PWR050"
-			(at 107.95 265.43 0)
+			(at 236.22 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24562,7 +24353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 268.478 90)
+			(at 229.87 131.318 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24573,7 +24364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 265.43 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24584,7 +24375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 265.43 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24595,7 +24386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 265.43 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24906,16 +24697,98 @@
 		)
 	)
 	(symbol
-		(lib_id "library:M2.5_nut")
-		(at 153.67 275.59 0)
+		(lib_id "library:9774020951R")
+		(at 347.98 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e30674c4-41a5-458b-9ad3-da7e4554710a")
-		(property "Reference" "H51"
-			(at 150.368 276.86 0)
+		(fields_autoplaced yes)
+		(uuid "e274444b-6b9c-4369-8ad8-7c1dadcde85e")
+		(property "Reference" "H36"
+			(at 349.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774020951R"
+			(at 349.25 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951"
+			(at 347.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMST SMT Steel Spacer with through hole Ø 2.7 H 2mm"
+			(at 347.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774020951R"
+			(at 347.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 349.25 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76b09f05-248e-437b-9559-dcc8fd6a9ef5")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:M2.5x5")
+		(at 238.76 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebcf0e26-c3dc-4bb5-963b-b95ffade0d98")
+		(property "Reference" "H54"
+			(at 235.204 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24925,8 +24798,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2.5 nut"
-			(at 156.718 276.86 0)
+		(property "Value" "M2.5x5"
+			(at 241.808 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24937,7 +24810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 275.59 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24948,7 +24821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 275.59 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24958,8 +24831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Nut; hexagonal; M2,5; 0.45; steel; Plating: zinc; H: 2mm; 5mm; BN 109"
-			(at 153.67 275.59 0)
+		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24969,8 +24842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "1088254"
-			(at 153.67 275.59 0)
+		(property "Part number" "M2.5X5/D7985"
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24980,8 +24853,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOSSARD"
-			(at 153.67 275.59 0)
+		(property "Manufacturer" "KRAFTBERG"
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24992,7 +24865,7 @@
 			)
 		)
 		(property "Category" "Fasteners"
-			(at 153.67 275.59 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25001,7 +24874,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 153.67 275.59 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25009,9 +24882,9 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H51")
+					(reference "H54")
 					(unit 1)
 				)
 			)
@@ -25208,6 +25081,88 @@
 		)
 	)
 	(symbol
+		(lib_id "library:9774030151R")
+		(at 224.79 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0803d56-5413-4446-b50e-c51d9d5dee06")
+		(property "Reference" "H27"
+			(at 226.06 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774030151R"
+			(at 226.06 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 3mm"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774030151R"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 226.06 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47663de2-d223-436a-9f40-bc0e8449b12f")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:P70-6000045R")
 		(at 370.84 80.01 270)
 		(mirror x)
@@ -25267,6 +25222,88 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:9774030151R")
+		(at 224.79 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a0105e-77c7-4b73-8b85-8b50daeac610")
+		(property "Reference" "H28"
+			(at 226.06 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9774030151R"
+			(at 226.06 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread, M2.5, 3mm"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "9774030151R"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 226.06 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e50c3bba-d9e2-46c4-b98e-9a408d010dd6")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H28")
 					(unit 1)
 				)
 			)
@@ -25499,6 +25536,118 @@
 		)
 	)
 	(symbol
+		(lib_id "library:M2.5x5")
+		(at 238.76 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa153d83-9794-43d0-817d-52a2f3692f4e")
+		(property "Reference" "H53"
+			(at 235.204 128.27 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5x5"
+			(at 241.808 128.27 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw; M2.5x5; 0.45; Head: cheese head; Phillips; PH1; steel; zinc"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M2.5X5/D7985"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KRAFTBERG"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Fasteners"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 273.05 0)
 		(unit 1)
@@ -25645,118 +25794,6 @@
 			(project "library"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SPH-002T-P0.5S")
-		(at 194.31 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fee50673-6e17-4b76-b939-95f242ee4637")
-		(property "Reference" "H24"
-			(at 190.754 165.1 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPH-002T-P0.5S"
-			(at 197.358 165.1 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Contact, PH, Socket, Crimp, 24 AWG, Tin Plated Contacts, PH Connectors"
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SPH-002T-P0.5S"
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Wire harness"
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "library"
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "H24")
 					(unit 1)
 				)
 			)
