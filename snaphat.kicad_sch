@@ -5983,23 +5983,22 @@
 		)
 		(symbol "library:SW_B3F-3150"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at -3.556 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "SW_B3F-3150"
-				(at 0 -3.175 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6007,7 +6006,7 @@
 				)
 			)
 			(property "Footprint" "library:SW_B3F-3150"
-				(at 0 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6015,8 +6014,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6051,28 +6050,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "SW_B3F-3150_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+						(xy -2.54 -2.54) (xy -2.54 0) (xy -2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -6084,7 +6065,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
+						(xy -2.286 1.27) (xy 2.286 1.27)
 					)
 					(stroke
 						(width 0)
@@ -6095,7 +6076,7 @@
 					)
 				)
 				(circle
-					(center -1.778 2.54)
+					(center -1.778 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -6107,7 +6088,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -6118,7 +6099,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 1.778 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -6130,7 +6111,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -6141,7 +6122,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -6158,8 +6139,28 @@
 						)
 					)
 				)
+			)
+			(symbol "SW_B3F-3150_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -6177,9 +6178,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6187,24 +6188,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8149,20 +8132,6 @@
 		)
 		(uuid "6a984ecd-fe23-442e-a247-e79e1decabc9")
 	)
-	(text "FOOTPRINT WRONG"
-		(exclude_from_sim no)
-		(at 112.014 247.396 0)
-		(effects
-			(font
-				(face "Quicksand")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 42 101 127 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7073b254-d926-43ec-9214-ebb31221ec1f")
-	)
 	(text "GPIO9(MISO)\n"
 		(exclude_from_sim no)
 		(at 63.5 66.04 0)
@@ -8549,12 +8518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21aae81f-9679-4bc9-b396-6ae4fda90a80")
-	)
-	(junction
-		(at 107.95 240.03)
-		(diameter 0)
-		(color 38 87 104 1)
-		(uuid "24073c5a-1e22-4f0d-86a5-e96dee0bf178")
 	)
 	(junction
 		(at 69.85 213.36)
@@ -9011,17 +8974,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 240.03) (xy 107.95 240.03)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(uuid "18466d05-8e8e-4ac6-809a-1dc57ba167a7")
-	)
-	(wire
-		(pts
 			(xy 284.48 67.31) (xy 287.02 67.31)
 		)
 		(stroke
@@ -9422,7 +9374,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 240.03) (xy 110.49 240.03)
+			(xy 105.41 240.03) (xy 110.49 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10151,17 +10103,6 @@
 			(color 132 0 0 1)
 		)
 		(uuid "868621c3-7cc8-4917-abed-939853014953")
-	)
-	(wire
-		(pts
-			(xy 107.95 242.57) (xy 107.95 240.03)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(uuid "880be24e-c0a6-4672-99fa-f70de6a4da40")
 	)
 	(wire
 		(pts
@@ -13381,6 +13322,83 @@
 			(project ""
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb50d07-2802-47c3-96b0-1ffb320f76c7")
+		(property "Reference" "#PWR037"
+			(at 101.6 242.57 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 242.5699 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+					(color 42 101 127 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49624538-9e9d-4246-b511-089cf046b7e2")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21224,6 +21242,98 @@
 		)
 	)
 	(symbol
+		(lib_id "library:SW_B3F-3150")
+		(at 115.57 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1220f95-48cf-482d-a07e-1f77224f9279")
+		(property "Reference" "SW8"
+			(at 115.57 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_B3F-3150"
+			(at 115.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:SW_B3F-3150"
+			(at 115.57 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, B3D Series, Side Actuated, Through Hole, Plunger for Cap, 100 gf, 50mA at 24VDC"
+			(at 115.57 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "B3F-3150"
+			(at 115.57 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OMRON"
+			(at 115.57 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "03c30e4a-769f-4088-8f55-4a2138600398")
+		)
+		(pin "1"
+			(uuid "14e5da31-6c53-4f68-9dbe-33e27fc6d398")
+		)
+		(pin "2"
+			(uuid "74c2eb22-a4fd-4eb4-a725-af359d28c337")
+		)
+		(pin "4"
+			(uuid "48355249-6aff-4d52-ac39-2fcf1da8a190")
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:1386735")
 		(at 186.69 267.97 0)
 		(unit 1)
@@ -25304,120 +25414,6 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SW_B3F-3150")
-		(at 115.57 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4f379f0-6084-4e85-81c7-65305843f956")
-		(property "Reference" "SW8"
-			(at 115.57 232.41 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Value" "SW_B3F-3150"
-			(at 115.57 234.95 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-			)
-		)
-		(property "Footprint" "library:SW_B3F-3150"
-			(at 115.57 234.95 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 115.57 234.95 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch, B3D Series, Side Actuated, Through Hole, Plunger for Cap, 100 gf, 50mA at 24VDC"
-			(at 115.57 242.57 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "B3F-3150"
-			(at 115.57 242.57 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OMRON"
-			(at 115.57 242.57 0)
-			(effects
-				(font
-					(face "Quicksand")
-					(size 1.27 1.27)
-					(color 42 101 127 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part name" ""
-			(at 115.57 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "46be5fcf-3750-4d9f-a979-96f9a51a1544")
-		)
-		(pin "3"
-			(uuid "f03f46c8-6f06-4828-b9d4-0b863267812e")
-		)
-		(pin "1"
-			(uuid "063bf6ca-06dc-426b-9986-e49fc9a493f3")
-		)
-		(pin "4"
-			(uuid "291ad299-1f8d-4e15-8c3a-04e51bdb7d1b")
-		)
-		(instances
-			(project ""
-				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
-					(reference "SW8")
 					(unit 1)
 				)
 			)
