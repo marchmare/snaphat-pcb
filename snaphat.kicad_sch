@@ -4748,7 +4748,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 4.064 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4756,7 +4756,7 @@
 				)
 			)
 			(property "Value" "Q_BC817-25"
-				(at -2.54 5.08 0)
+				(at 9.398 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4764,7 +4764,7 @@
 				)
 			)
 			(property "Footprint" "library:SOT-23"
-				(at 63.5 0 0)
+				(at 3.302 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4772,8 +4772,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4782,7 +4782,7 @@
 				)
 			)
 			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
+				(at -0.508 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4791,25 +4791,7 @@
 				)
 			)
 			(property "Part number" "BC817-25"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
+				(at 2.286 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4818,25 +4800,7 @@
 				)
 			)
 			(property "Manufacturer" "MULTICOMP PRO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
+				(at 4.064 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4847,7 +4811,7 @@
 			(symbol "Q_BC817-25_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy -3.81 0) (xy -0.635 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -4859,7 +4823,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -4871,7 +4835,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy -0.635 0.635) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4883,7 +4847,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -4894,7 +4858,7 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
+					(center 0 0)
 					(radius 2.8194)
 					(stroke
 						(width 0.254)
@@ -4906,7 +4870,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778) (xy 0 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -4918,7 +4882,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -4930,7 +4894,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -4943,27 +4907,9 @@
 			)
 			(symbol "Q_BC817-25_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4978,8 +4924,26 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin open_emitter line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "E"
 						(effects
@@ -4988,7 +4952,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8358,20 +8322,6 @@
 		)
 		(uuid "8bd0482b-37bf-4719-b397-03df05a4c380")
 	)
-	(text "FOOTPRINT WRONG"
-		(exclude_from_sim no)
-		(at 80.772 154.686 0)
-		(effects
-			(font
-				(face "Quicksand")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 42 101 127 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c13734e-4d5b-4d60-8478-0ef4a753b804")
-	)
 	(text "Buttons"
 		(exclude_from_sim no)
 		(at 94.234 185.928 0)
@@ -8543,20 +8493,6 @@
 		)
 		(uuid "cd2999bb-9c5a-44ec-8e1f-d2aad8ed35df")
 	)
-	(text "This buzzer is kinda quiet"
-		(exclude_from_sim no)
-		(at 82.042 138.43 0)
-		(effects
-			(font
-				(face "Quicksand")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 42 101 127 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2522d0e-093d-4d33-ba3d-99b4f836ea41")
-	)
 	(text "Buzzer"
 		(exclude_from_sim no)
 		(at 19.05 121.92 0)
@@ -8718,7 +8654,7 @@
 		(uuid "266231af-940d-404b-a493-ff839e61ba55")
 	)
 	(junction
-		(at 76.2 139.7)
+		(at 76.2 143.51)
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "29fe5171-17c6-4d43-947f-15b6ad83eb64")
@@ -8730,7 +8666,7 @@
 		(uuid "36b78535-8ac3-4cdc-8b4b-2bdf3bc927e7")
 	)
 	(junction
-		(at 76.2 127)
+		(at 76.2 130.81)
 		(diameter 0)
 		(color 38 87 104 1)
 		(uuid "3fd00c9e-e2f0-41ab-af07-82dccb390e04")
@@ -8999,7 +8935,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 149.86) (xy 55.88 149.86)
+			(xy 53.34 153.67) (xy 55.88 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9010,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 124.46) (xy 76.2 127)
+			(xy 76.2 128.27) (xy 76.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9043,7 +8979,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 68.58 149.86)
+			(xy 63.5 153.67) (xy 68.58 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9410,7 +9346,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 127) (xy 76.2 127)
+			(xy 68.58 130.81) (xy 76.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9659,7 +9595,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 76.2 144.78)
+			(xy 76.2 143.51) (xy 76.2 148.59)
 		)
 		(stroke
 			(width 0)
@@ -10005,7 +9941,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 135.89) (xy 76.2 139.7)
+			(xy 76.2 139.7) (xy 76.2 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10231,7 +10167,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 154.94) (xy 76.2 165.1)
+			(xy 76.2 158.75) (xy 76.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10329,7 +10265,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 137.16) (xy 68.58 139.7)
+			(xy 68.58 140.97) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10896,7 +10832,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 76.2 139.7)
+			(xy 68.58 143.51) (xy 76.2 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10907,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 76.2 130.81)
+			(xy 76.2 130.81) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11067,7 +11003,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 68.58 127)
+			(xy 68.58 133.35) (xy 68.58 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12124,7 +12060,7 @@
 	)
 	(global_label "BUZZER_SIGNAL"
 		(shape input)
-		(at 53.34 149.86 180)
+		(at 53.34 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12137,7 +12073,7 @@
 		)
 		(uuid "a6afa291-9347-4f85-85ca-a4b931b75ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4172 149.86 0)
+			(at 35.4172 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16888,7 +16824,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 76.2 124.46 0)
+		(at 76.2 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16897,7 +16833,7 @@
 		(fields_autoplaced yes)
 		(uuid "5086420a-ca57-4d3d-9a25-a832013037ae")
 		(property "Reference" "#PWR01"
-			(at 76.2 128.27 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16908,7 +16844,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 76.2 119.38 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16918,7 +16854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16929,7 +16865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16940,7 +16876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16964,7 +16900,7 @@
 	)
 	(symbol
 		(lib_id "library:R_1k_0402")
-		(at 59.69 149.86 90)
+		(at 59.69 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16972,7 +16908,7 @@
 		(dnp no)
 		(uuid "52a4a834-7d26-4d6a-ae3d-dfb88caa4938")
 		(property "Reference" "R1"
-			(at 59.69 147.32 90)
+			(at 59.69 151.13 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16982,7 +16918,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.69 149.86 90)
+			(at 59.69 153.67 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16992,7 +16928,7 @@
 			)
 		)
 		(property "Footprint" "library:R_0402_1005Metric"
-			(at 59.69 151.638 90)
+			(at 59.69 155.448 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17003,7 +16939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17014,7 +16950,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17025,7 +16961,7 @@
 			)
 		)
 		(property "SKU" ""
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17036,7 +16972,7 @@
 			)
 		)
 		(property "Part number" "RC0402FR-071KL"
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17047,7 +16983,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17058,7 +16994,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 59.69 149.86 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17975,7 +17911,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 165.1 0)
+		(at 76.2 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17984,7 +17920,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ce9aff3-db2a-421b-9b84-0e69beed54a5")
 		(property "Reference" "#PWR02"
-			(at 76.2 171.45 0)
+			(at 76.2 167.64 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17995,7 +17931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 170.18 0)
+			(at 76.2 166.37 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18005,7 +17941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 165.1 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18016,7 +17952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 165.1 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18027,7 +17963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 165.1 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18627,7 +18563,7 @@
 	)
 	(symbol
 		(lib_id "library:D_1N4148WT")
-		(at 68.58 133.35 270)
+		(at 68.58 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18635,7 +18571,7 @@
 		(dnp no)
 		(uuid "6a6c0331-4ba4-41cc-a32d-f772ff0d1dea")
 		(property "Reference" "D1"
-			(at 66.04 130.81 90)
+			(at 66.04 134.62 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18646,7 +18582,7 @@
 			)
 		)
 		(property "Value" "1N4148WT"
-			(at 65.786 133.35 90)
+			(at 65.786 137.16 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18657,7 +18593,7 @@
 			)
 		)
 		(property "Footprint" "library:D_SOD-523"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18668,7 +18604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18679,7 +18615,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18690,7 +18626,7 @@
 			)
 		)
 		(property "Part number" "1N4148WT"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18701,7 +18637,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18712,7 +18648,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18723,7 +18659,7 @@
 			)
 		)
 		(property "Manufacturer" "ONSEMI"
-			(at 66.04 135.89 90)
+			(at 66.04 139.7 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18735,7 +18671,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 68.58 133.35 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20091,7 +20027,7 @@
 	)
 	(symbol
 		(lib_id "library:KSSGL4B12-S")
-		(at 78.74 133.35 0)
+		(at 78.74 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20100,7 +20036,7 @@
 		(fields_autoplaced yes)
 		(uuid "80587be7-8c19-4e97-a389-6cfbfde0406c")
 		(property "Reference" "BZ1"
-			(at 82.55 132.0799 0)
+			(at 82.55 135.8899 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20111,7 +20047,7 @@
 			)
 		)
 		(property "Value" "KSSGL4B12-S"
-			(at 82.55 134.6199 0)
+			(at 82.55 138.4299 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20122,7 +20058,7 @@
 			)
 		)
 		(property "Footprint" "library:XDCR_KSSGL4B12-S"
-			(at 78.105 130.81 90)
+			(at 78.105 134.62 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20133,7 +20069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.105 130.81 90)
+			(at 78.105 134.62 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20144,7 +20080,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 78.74 133.35 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20155,7 +20091,7 @@
 			)
 		)
 		(property "Part number" "KSSGL4B12-S"
-			(at 82.55 134.6199 0)
+			(at 82.55 138.4299 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20167,7 +20103,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingstate"
-			(at 82.55 137.1599 0)
+			(at 82.55 140.9699 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -20179,7 +20115,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 78.74 133.35 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24825,7 +24761,7 @@
 	)
 	(symbol
 		(lib_id "library:Q_BC817-25")
-		(at 73.66 149.86 0)
+		(at 74.93 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24833,7 +24769,7 @@
 		(dnp no)
 		(uuid "e1cd3d6a-49b4-4a4a-a3a4-4a432c55ba70")
 		(property "Reference" "Q1"
-			(at 78.74 148.5899 0)
+			(at 80.01 152.3999 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24844,7 +24780,7 @@
 			)
 		)
 		(property "Value" "Q_BC817-25"
-			(at 78.74 151.1299 0)
+			(at 80.01 154.9399 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24855,7 +24791,7 @@
 			)
 		)
 		(property "Footprint" "library:SOT-23"
-			(at 137.16 149.86 0)
+			(at 138.43 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24866,7 +24802,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 137.16 149.86 0)
+			(at 138.43 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24877,7 +24813,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24888,7 +24824,7 @@
 			)
 		)
 		(property "Part number" "BC817-25"
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24899,7 +24835,7 @@
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 78.74 153.416 0)
+			(at 80.01 157.226 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24911,7 +24847,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24922,7 +24858,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24933,7 +24869,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24944,7 +24880,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 73.66 149.86 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
