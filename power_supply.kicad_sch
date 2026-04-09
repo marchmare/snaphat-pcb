@@ -4815,6 +4815,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:R_47R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "library:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "RC0402JR-0747RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_47R_0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_47R_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -6554,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 52.07) (xy 267.97 54.61)
+			(xy 259.08 52.07) (xy 259.08 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6754,7 +6905,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 41.91) (xy 267.97 44.45)
+			(xy 259.08 41.91) (xy 259.08 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6871,6 +7022,16 @@
 			(type solid)
 		)
 		(uuid "7cb18aa0-b005-47dd-8574-9049c41b9e16")
+	)
+	(wire
+		(pts
+			(xy 39.37 41.91) (xy 41.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7e6efd1d-3bf8-4d02-b547-a33332137286")
 	)
 	(wire
 		(pts
@@ -6991,16 +7152,6 @@
 			(type default)
 		)
 		(uuid "90e30d8e-f740-40a3-aa06-5f6ea855b51f")
-	)
-	(wire
-		(pts
-			(xy 39.37 41.91) (xy 41.91 41.91)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9363d4b0-8541-4863-9bbf-e1f8cbc77eac")
 	)
 	(wire
 		(pts
@@ -7344,7 +7495,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 196.85 54.61)
+			(xy 189.23 52.07) (xy 189.23 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7364,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 186.69 54.61)
+			(xy 198.12 52.07) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7494,7 +7645,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 41.91) (xy 186.69 44.45)
+			(xy 198.12 41.91) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7504,7 +7655,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 41.91) (xy 196.85 44.45)
+			(xy 189.23 41.91) (xy 189.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7634,7 +7785,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 52.07) (xy 257.81 54.61)
+			(xy 269.24 52.07) (xy 269.24 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7654,7 +7805,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 41.91) (xy 257.81 44.45)
+			(xy 269.24 41.91) (xy 269.24 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10120,7 +10271,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 41.91 0)
+		(at 269.24 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10129,7 +10280,7 @@
 		(fields_autoplaced yes)
 		(uuid "506dbc6b-574d-494f-a0c3-bfdd7b417871")
 		(property "Reference" "#PWR068"
-			(at 257.81 45.72 0)
+			(at 269.24 45.72 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10139,7 +10290,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 257.81 36.83 0)
+			(at 269.24 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10148,7 +10299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10158,7 +10309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10168,7 +10319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10262,7 +10413,7 @@
 	)
 	(symbol
 		(lib_id "library:VSYS")
-		(at 186.69 41.91 0)
+		(at 198.12 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10271,7 +10422,7 @@
 		(fields_autoplaced yes)
 		(uuid "52067db0-9877-4c47-a4f0-db701be32e08")
 		(property "Reference" "#PWR031"
-			(at 186.69 45.72 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10281,7 +10432,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 186.69 36.83 0)
+			(at 198.12 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10290,7 +10441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 41.91 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10300,7 +10451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 41.91 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10310,7 +10461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSYS\""
-			(at 186.69 41.91 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11056,7 +11207,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 54.61 0)
+		(at 198.12 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11065,7 +11216,7 @@
 		(fields_autoplaced yes)
 		(uuid "7254c3a6-31f9-42c5-9902-8835d38146b2")
 		(property "Reference" "#PWR058"
-			(at 186.69 60.96 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11075,7 +11226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 59.69 0)
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11084,7 +11235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 54.61 0)
+			(at 198.12 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11094,7 +11245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 54.61 0)
+			(at 198.12 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11104,7 +11255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 54.61 0)
+			(at 198.12 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12238,7 +12389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 54.61 0)
+		(at 189.23 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12247,7 +12398,7 @@
 		(fields_autoplaced yes)
 		(uuid "7eba1310-496d-4803-9adc-755706b7bbe7")
 		(property "Reference" "#PWR067"
-			(at 196.85 60.96 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12257,7 +12408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 59.69 0)
+			(at 189.23 59.69 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12266,7 +12417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 54.61 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12276,7 +12427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 54.61 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12286,7 +12437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 54.61 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12309,7 +12460,7 @@
 	)
 	(symbol
 		(lib_id "library:VSYS")
-		(at 196.85 41.91 0)
+		(at 189.23 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12318,7 +12469,7 @@
 		(fields_autoplaced yes)
 		(uuid "82392a68-c91f-4e6e-90a8-ff6c330a4f54")
 		(property "Reference" "#PWR032"
-			(at 196.85 45.72 0)
+			(at 189.23 45.72 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12328,7 +12479,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 196.85 36.83 0)
+			(at 189.23 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12337,7 +12488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 41.91 0)
+			(at 189.23 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12347,7 +12498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 41.91 0)
+			(at 189.23 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12357,7 +12508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSYS\""
-			(at 196.85 41.91 0)
+			(at 189.23 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12645,7 +12796,7 @@
 	)
 	(symbol
 		(lib_id "library:C_2u2_0805")
-		(at 257.81 48.26 0)
+		(at 269.24 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12654,7 +12805,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c4f1843-4bef-4c6f-8290-a7f417484f7a")
 		(property "Reference" "C3"
-			(at 261.62 46.9899 0)
+			(at 273.05 46.9899 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12664,7 +12815,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 261.62 49.5299 0)
+			(at 273.05 49.5299 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12674,7 +12825,7 @@
 			)
 		)
 		(property "Footprint" "library:C_0805_2012Metric"
-			(at 258.7752 52.07 0)
+			(at 270.2052 52.07 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12684,7 +12835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12694,7 +12845,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12704,7 +12855,7 @@
 			)
 		)
 		(property "Part number" "CC0805KKX7R6BB225"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12714,7 +12865,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12724,7 +12875,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12734,7 +12885,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12744,7 +12895,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 257.81 48.26 0)
+			(at 269.24 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12985,7 +13136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 54.61 0)
+		(at 269.24 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12994,7 +13145,7 @@
 		(fields_autoplaced yes)
 		(uuid "9522eafd-7c37-497d-87c6-b353ed061650")
 		(property "Reference" "#PWR069"
-			(at 257.81 60.96 0)
+			(at 269.24 60.96 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13004,7 +13155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 59.69 0)
+			(at 269.24 59.69 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13013,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 54.61 0)
+			(at 269.24 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13023,7 +13174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 54.61 0)
+			(at 269.24 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13033,7 +13184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 54.61 0)
+			(at 269.24 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13232,7 +13383,7 @@
 	)
 	(symbol
 		(lib_id "library:C_100n_0402")
-		(at 186.69 48.26 180)
+		(at 198.12 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13240,7 +13391,7 @@
 		(dnp no)
 		(uuid "9d1dcbcd-2845-493c-9197-6d444959fe64")
 		(property "Reference" "C14"
-			(at 189.484 46.99 0)
+			(at 200.914 46.99 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13250,7 +13401,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 189.484 49.53 0)
+			(at 200.914 49.53 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13260,7 +13411,7 @@
 			)
 		)
 		(property "Footprint" "library:C_0402_1005Metric"
-			(at 185.7248 44.45 0)
+			(at 197.1548 44.45 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13270,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13280,7 +13431,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13290,7 +13441,7 @@
 			)
 		)
 		(property "Part number" "CS0402KRX7R7BB104"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13300,7 +13451,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13310,7 +13461,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13320,7 +13471,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13330,7 +13481,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13340,7 +13491,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 186.69 48.26 0)
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14597,22 +14748,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "92583db7-71c7-4b57-9a59-24cc71daa49f")
+			(uuid "92583db7-71c7-4b57-9a59-24cc71daa4a0")
 		)
 		(pin "2"
-			(uuid "9d160330-bb91-4c73-b94c-236090dab86e")
+			(uuid "9d160330-bb91-4c73-b94c-236090dab86f")
 		)
 		(pin "5"
-			(uuid "d3848ab6-1481-4e3e-a7d3-7c642ab5cf62")
+			(uuid "d3848ab6-1481-4e3e-a7d3-7c642ab5cf63")
 		)
 		(pin "6"
-			(uuid "336793c7-4c2e-4e66-982a-92cb02714f79")
+			(uuid "336793c7-4c2e-4e66-982a-92cb02714f7a")
 		)
 		(pin "1"
-			(uuid "bd63dc78-20e1-47a5-af96-0318436006fb")
+			(uuid "bd63dc78-20e1-47a5-af96-0318436006fc")
 		)
 		(pin "3"
-			(uuid "9b8e992c-f6bc-487f-83d1-2270532a4580")
+			(uuid "9b8e992c-f6bc-487f-83d1-2270532a4581")
 		)
 		(instances
 			(project ""
@@ -14747,7 +14898,7 @@
 	)
 	(symbol
 		(lib_id "library:C_10u_0805")
-		(at 196.85 48.26 0)
+		(at 189.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14756,7 +14907,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0d9bfcf-9255-4d0f-836f-5a30dd8157cf")
 		(property "Reference" "C10"
-			(at 200.66 46.9899 0)
+			(at 193.04 46.9899 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14766,7 +14917,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 200.66 49.5299 0)
+			(at 193.04 49.5299 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14776,7 +14927,7 @@
 			)
 		)
 		(property "Footprint" "library:C_0805_2012Metric"
-			(at 197.8152 52.07 0)
+			(at 190.1952 52.07 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14786,7 +14937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14796,7 +14947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14806,7 +14957,7 @@
 			)
 		)
 		(property "Part number" "CC0805KFX7R6BB106"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14816,7 +14967,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14826,7 +14977,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14836,7 +14987,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14846,7 +14997,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14856,7 +15007,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 196.85 48.26 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15135,7 +15286,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 267.97 41.91 0)
+		(at 259.08 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15144,7 +15295,7 @@
 		(fields_autoplaced yes)
 		(uuid "da9fc111-fa43-417b-8b72-cd9df36a4ae3")
 		(property "Reference" "#PWR054"
-			(at 267.97 45.72 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15154,7 +15305,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 267.97 36.83 0)
+			(at 259.08 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15163,7 +15314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15173,7 +15324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15183,7 +15334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 267.97 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15557,7 +15708,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 54.61 0)
+		(at 259.08 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15566,7 +15717,7 @@
 		(fields_autoplaced yes)
 		(uuid "e615ab66-7296-461a-bc41-9d16ee5c3470")
 		(property "Reference" "#PWR055"
-			(at 267.97 60.96 0)
+			(at 259.08 60.96 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15576,7 +15727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 59.69 0)
+			(at 259.08 59.69 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15585,7 +15736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 54.61 0)
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15595,7 +15746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 54.61 0)
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15605,7 +15756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 54.61 0)
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15944,7 +16095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "library:R_100R_0402")
+		(lib_id "library:R_47R_0402")
 		(at 233.68 123.19 270)
 		(mirror x)
 		(unit 1)
@@ -15962,7 +16113,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "47R"
 			(at 233.68 123.19 90)
 			(effects
 				(font
@@ -15975,7 +16126,6 @@
 			(at 233.68 124.968 90)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -15985,7 +16135,6 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -15995,7 +16144,6 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16005,17 +16153,15 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Part number" "RC0402JR-07100RL"
+		(property "Part number" "RC0402JR-0747RL"
 			(at 233.68 123.19 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16025,7 +16171,6 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
-					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16619,7 +16764,7 @@
 	)
 	(symbol
 		(lib_id "library:C_100n_0402")
-		(at 267.97 48.26 180)
+		(at 259.08 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16628,7 +16773,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc77d239-328f-4e4e-96fa-3018c2679f22")
 		(property "Reference" "C13"
-			(at 271.78 46.9899 0)
+			(at 262.89 46.9899 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16638,7 +16783,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 271.78 49.5299 0)
+			(at 262.89 49.5299 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16648,7 +16793,7 @@
 			)
 		)
 		(property "Footprint" "library:C_0402_1005Metric"
-			(at 267.0048 44.45 0)
+			(at 258.1148 44.45 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16658,7 +16803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16668,7 +16813,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16678,7 +16823,7 @@
 			)
 		)
 		(property "Part number" "CS0402KRX7R7BB104"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16688,7 +16833,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16698,7 +16843,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16708,7 +16853,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16718,7 +16863,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16728,7 +16873,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 267.97 48.26 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(face "Quicksand")
