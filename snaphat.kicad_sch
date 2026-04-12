@@ -9096,6 +9096,12 @@
 		(uuid "5e95a5f0-c50a-4c73-a77c-4621d692fa6f")
 	)
 	(junction
+		(at 349.25 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69328940-7553-471e-a5a3-7ca8d29691aa")
+	)
+	(junction
 		(at 349.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9112,6 +9118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73627f50-cf4d-49a1-91b0-4c9cdc1b3966")
+	)
+	(junction
+		(at 367.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8250d73f-b53b-45ea-a7fd-8419f8945ced")
 	)
 	(junction
 		(at 266.7 191.77)
@@ -9148,6 +9160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8db99315-876c-4c83-8053-97b8626a9680")
+	)
+	(junction
+		(at 349.25 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9620234a-aabf-4a9e-9239-3f2ee2541d91")
 	)
 	(junction
 		(at 245.11 179.07)
@@ -10133,6 +10151,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 71.12) (xy 369.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a337b1a-495d-4baf-a5e8-d1b35a4045a0")
+	)
+	(wire
+		(pts
 			(xy 91.44 49.53) (xy 91.44 78.74)
 		)
 		(stroke
@@ -10160,6 +10188,16 @@
 			(type default)
 		)
 		(uuid "5cb30f3c-214c-4486-8828-bb3b6f156f4d")
+	)
+	(wire
+		(pts
+			(xy 369.57 73.66) (xy 367.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6d6fde-ae6b-44eb-bc0e-32c780a7f5c6")
 	)
 	(wire
 		(pts
@@ -10320,6 +10358,16 @@
 			(type solid)
 		)
 		(uuid "6a19518b-dd4c-4b2a-8987-5bfab2b416b1")
+	)
+	(wire
+		(pts
+			(xy 349.25 57.15) (xy 369.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a36c90d-9a28-43e1-86ba-ec0939efea15")
 	)
 	(wire
 		(pts
@@ -10563,7 +10611,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 57.15) (xy 369.57 57.15)
+			(xy 346.71 57.15) (xy 349.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10743,7 +10791,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 71.12) (xy 369.57 71.12)
+			(xy 359.41 71.12) (xy 367.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10810,6 +10858,16 @@
 			(type default)
 		)
 		(uuid "917a2e81-e778-431d-a1d6-4df09df3a3b1")
+	)
+	(wire
+		(pts
+			(xy 353.06 92.71) (xy 349.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ed9170-db48-434c-9b5a-a2d09ca803fa")
 	)
 	(wire
 		(pts
@@ -11613,6 +11671,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 73.66) (xy 367.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a3ae67-b4ab-4968-bdb1-3704bcba85b6")
+	)
+	(wire
+		(pts
 			(xy 146.05 214.63) (xy 147.32 214.63)
 		)
 		(stroke
@@ -11710,6 +11778,16 @@
 			(type default)
 		)
 		(uuid "f2c6b5ac-f492-4860-987e-173794ad89ab")
+	)
+	(wire
+		(pts
+			(xy 349.25 92.71) (xy 349.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32431b0-b6ab-42cf-9286-8f1524b75971")
 	)
 	(wire
 		(pts
@@ -13331,6 +13409,87 @@
 			(project ""
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:TestPoint")
+		(at 369.57 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cf4503e-1a9a-49a9-a357-217632bbf786")
+		(property "Reference" "TP17"
+			(at 377.698 73.66 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 374.1419 71.12 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "library:TestPoint_Pad_D1.5mm"
+			(at 369.57 78.74 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 78.74 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 369.57 73.66 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 369.57 73.66 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49aeea24-15fa-447a-8aee-bc06150e0a0d")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -22321,6 +22480,87 @@
 		)
 	)
 	(symbol
+		(lib_id "library:TestPoint")
+		(at 349.25 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0435b03-da42-4eeb-a9bf-2f639d98717c")
+		(property "Reference" "TP16"
+			(at 349.25 49.022 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 346.71 52.5781 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "library:TestPoint_Pad_D1.5mm"
+			(at 354.33 57.15 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 57.15 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 57.15 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 349.25 57.15 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adb51ea6-3fc1-44f9-a989-611166ff3a72")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 199.39 0)
 		(unit 1)
@@ -24818,6 +25058,87 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:TestPoint")
+		(at 353.06 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4445caf-171d-4efe-bfcf-208a90207f33")
+		(property "Reference" "TP15"
+			(at 361.188 92.71 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 357.6319 90.17 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "library:TestPoint_Pad_D1.5mm"
+			(at 353.06 97.79 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 97.79 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 353.06 92.71 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part name" ""
+			(at 353.06 92.71 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4936f3ae-d29a-4a18-84bc-dc1fd96b0917")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
