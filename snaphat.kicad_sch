@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Miscellaneous component"
+			(property "Description" "Double ended 150mm crimp contact wire"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Double ended 150mm crimp contact wire"
+			(property "Category" "Wire harness"
 				(at 0 0 0)
 				(effects
 					(font
@@ -170,7 +170,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "OTS"
+			(property "Category" "Wire harness"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3809,6 +3809,24 @@
 					(hide yes)
 				)
 			)
+			(property "Part number" "SL04-E3-08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -6390,7 +6408,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "LITTELFUSE"
+			(property "Manufacturer" "Littelfuse"
 				(at 26.67 -494.92 0)
 				(effects
 					(font
@@ -12690,7 +12708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITTELFUSE"
+		(property "Manufacturer" "Littelfuse"
 			(at -282.83 110.49 0)
 			(effects
 				(font
@@ -12803,6 +12821,24 @@
 			(effects
 				(font
 					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SL04-E3-08"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 233.68 60.96 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -15911,7 +15947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 63.5 0)
 			(effects
 				(font
@@ -15940,7 +15976,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 63.5 0)
 			(effects
 				(font
@@ -16895,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -16924,7 +16960,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -17209,7 +17245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 59.69 0)
 			(effects
 				(font
@@ -17238,7 +17274,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 59.69 0)
 			(effects
 				(font
@@ -17591,7 +17627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 74.93 0)
 			(effects
 				(font
@@ -17620,7 +17656,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 74.93 0)
 			(effects
 				(font
@@ -19492,7 +19528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 67.31 0)
 			(effects
 				(font
@@ -19521,7 +19557,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 67.31 0)
 			(effects
 				(font
@@ -20743,7 +20779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 71.12 0)
 			(effects
 				(font
@@ -20772,7 +20808,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 71.12 0)
 			(effects
 				(font
@@ -21024,7 +21060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 55.88 0)
 			(effects
 				(font
@@ -21053,7 +21089,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 55.88 0)
 			(effects
 				(font
@@ -23177,7 +23213,7 @@
 				)
 			)
 		)
-		(property "Category" "OTS"
+		(property "Category" "Wire harness"
 			(at 327.66 116.84 0)
 			(effects
 				(font
@@ -23350,7 +23386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous component"
+		(property "Description" "Double ended 150mm crimp contact wire"
 			(at 22.86 52.07 0)
 			(effects
 				(font
@@ -23379,7 +23415,7 @@
 				)
 			)
 		)
-		(property "Category" "Double ended 150mm crimp contact wire"
+		(property "Category" "Wire harness"
 			(at 22.86 52.07 0)
 			(effects
 				(font

@@ -1219,6 +1219,24 @@
 					(hide yes)
 				)
 			)
+			(property "Part number" "SL04-E3-08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -8205,6 +8223,24 @@
 			(effects
 				(font
 					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SL04-E3-08"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 241.3 50.8 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
