@@ -103,6 +103,97 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:05-04-D-0050-A-4-06-4-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 4.064 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "05-04-D-0050-A-4-06-4-T"
+				(at 4.064 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FFC / FPC Cable, 4 Core, 0.5 mm, Opposite Sided Contacts, 1.97 \", 50 mm, White"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "05-04-D-0050-A-4-06-4-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "OTS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "05-04-D-0050-A-4-06-4-T_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:10304"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8777,6 +8868,19 @@
 			(justify left top)
 		)
 		(uuid "b76a06e0-1bb3-446f-b514-c1928049eb3e")
+	)
+	(text "FFC cable:"
+		(exclude_from_sim no)
+		(at 323.596 115.316 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8974af0-77a5-4123-9780-8a21c4ac20c0")
 	)
 	(text "GPIO8(CE0)"
 		(exclude_from_sim no)
@@ -20778,7 +20882,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 218.44 66.04 90)
+			(at 217.932 66.04 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22997,6 +23101,95 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:05-04-D-0050-A-4-06-4-T")
+		(at 327.66 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b87e4945-368c-4cf1-ae71-b75835dbe1c0")
+		(property "Reference" "H57"
+			(at 323.342 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "05-04-D-0050-A-4-06-4-T"
+			(at 335.026 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FFC / FPC Cable, 4 Core, 0.5 mm, Opposite Sided Contacts, 1.97 \", 50 mm, White"
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "05-04-D-0050-A-4-06-4-T"
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 332.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "OTS"
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
+					(reference "H57")
 					(unit 1)
 				)
 			)
