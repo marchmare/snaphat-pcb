@@ -8344,7 +8344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d45a50-61b2-4b9d-8430-fb769b46a32b")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 119.38 41.9099 0)
 			(effects
 				(font
@@ -8442,7 +8442,7 @@
 		(instances
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5611081f-6e6e-44a6-86c8-2558decb106b")
-		(property "Reference" "R15"
+		(property "Reference" "R3"
 			(at 88.9 145.542 90)
 			(effects
 				(font
@@ -10589,7 +10589,7 @@
 		(instances
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
-					(reference "R15")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16126,6 +16126,7 @@
 			(at 233.68 124.968 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16135,6 +16136,7 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16144,6 +16146,7 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16153,6 +16156,7 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16162,6 +16166,7 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16171,6 +16176,7 @@
 			(at 233.68 123.19 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
