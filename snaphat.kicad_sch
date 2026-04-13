@@ -9444,10 +9444,6 @@
 		(uuid "0c04a00c-e344-46c6-b254-3249cda49a12")
 	)
 	(no_connect
-		(at 177.8 209.55)
-		(uuid "17ac7742-f9e0-4631-9bed-ab86ca7164b1")
-	)
-	(no_connect
 		(at 177.8 196.85)
 		(uuid "716b8003-2a0c-4bdf-996e-2191f78e8832")
 	)
@@ -10443,7 +10439,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 209.55) (xy 177.8 209.55)
+			(xy 160.02 209.55) (xy 196.85 209.55)
 		)
 		(stroke
 			(width 0)
@@ -10523,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 54.61) (xy 260.35 54.61)
+			(xy 243.84 52.07) (xy 260.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10613,6 +10609,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fcf4bb-5c76-4ac6-aee7-2e1a0f011bbb")
+	)
+	(wire
+		(pts
 			(xy 196.85 68.58) (xy 204.47 68.58)
 		)
 		(stroke
@@ -10623,7 +10629,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 39.37) (xy 281.94 41.91)
+			(xy 281.94 36.83) (xy 281.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11053,7 +11059,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 52.07) (xy 260.35 52.07)
+			(xy 243.84 49.53) (xy 260.35 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11063,7 +11069,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 45.72) (xy 260.35 45.72)
+			(xy 250.19 43.18) (xy 260.35 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11073,7 +11079,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 41.91) (xy 257.81 41.91)
+			(xy 260.35 39.37) (xy 257.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11103,7 +11109,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 39.37) (xy 257.81 41.91)
+			(xy 257.81 36.83) (xy 257.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11113,7 +11119,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 41.91) (xy 281.94 41.91)
+			(xy 279.4 39.37) (xy 281.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11243,7 +11249,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 57.15) (xy 260.35 57.15)
+			(xy 243.84 54.61) (xy 260.35 54.61)
 		)
 		(stroke
 			(width 0)
@@ -11823,7 +11829,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 48.26) (xy 260.35 48.26)
+			(xy 250.19 45.72) (xy 260.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12119,7 +12125,7 @@
 		(uuid "23e41537-cbeb-4467-a2f5-94f92c8120ac")
 	)
 	(label "I2C_SCL"
-		(at 243.84 54.61 0)
+		(at 243.84 52.07 0)
 		(effects
 			(font
 				(face "Quicksand")
@@ -12239,6 +12245,17 @@
 		)
 		(uuid "3f76d6ba-3d13-40b8-ac93-e2aef26faf56")
 	)
+	(label "LED_SHUTTER"
+		(at 243.84 57.15 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42e9ab8e-6027-4d8d-bb4b-2bd7587f3940")
+	)
 	(label "DISPLAY_MOSI"
 		(at 114.3 52.07 180)
 		(effects
@@ -12250,7 +12267,7 @@
 		)
 		(uuid "4430a69c-ad97-4ffe-b2b9-ecd14e32065e")
 	)
-	(label "LOW_BATTERY"
+	(label "LED_LBO"
 		(at 107.95 209.55 0)
 		(effects
 			(font
@@ -12305,6 +12322,17 @@
 		)
 		(uuid "629ced0c-5717-4ecc-99f4-ea1cc77424de")
 	)
+	(label "LED_SHUTTER"
+		(at 196.85 209.55 180)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6de30b57-60b0-455c-b24f-bedcc8df8570")
+	)
 	(label "DISPLAY_DC"
 		(at 196.85 191.77 180)
 		(effects
@@ -12350,7 +12378,7 @@
 		(uuid "703470a8-fc88-4dad-8dbd-2071058844d7")
 	)
 	(label "I2C_SDA"
-		(at 243.84 52.07 0)
+		(at 243.84 49.53 0)
 		(effects
 			(font
 				(face "Quicksand")
@@ -12382,8 +12410,8 @@
 		)
 		(uuid "86def5ba-c748-43d7-a41d-444e8a3b499a")
 	)
-	(label "LOW_BATTERY"
-		(at 243.84 57.15 0)
+	(label "LED_LBO"
+		(at 243.84 54.61 0)
 		(effects
 			(font
 				(face "Quicksand")
@@ -16550,7 +16578,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 39.37 0)
+		(at 257.81 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16559,7 +16587,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e4cd1a2-d424-4c08-8623-a9ea3985c44c")
 		(property "Reference" "#PWR056"
-			(at 257.81 43.18 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16569,7 +16597,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 257.81 34.29 0)
+			(at 257.81 31.75 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16578,7 +16606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16588,7 +16616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -16598,7 +16626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17438,7 +17466,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 281.94 39.37 0)
+		(at 281.94 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17447,7 +17475,7 @@
 		(fields_autoplaced yes)
 		(uuid "59120be2-19ed-4177-862c-1607085a919f")
 		(property "Reference" "#PWR021"
-			(at 281.94 43.18 0)
+			(at 281.94 40.64 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17457,7 +17485,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 281.94 34.29 0)
+			(at 281.94 31.75 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17466,7 +17494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 39.37 0)
+			(at 281.94 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17476,7 +17504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 39.37 0)
+			(at 281.94 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17486,7 +17514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 281.94 39.37 0)
+			(at 281.94 36.83 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18345,7 +18373,7 @@
 	)
 	(symbol
 		(lib_id "library:Conn_01x02_B2B-PH-K-S(LF)(SN)")
-		(at 245.11 45.72 0)
+		(at 245.11 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18354,7 +18382,7 @@
 		(dnp no)
 		(uuid "6481c901-5f02-4a6d-9125-3f1c9b4e34dc")
 		(property "Reference" "J3"
-			(at 245.872 42.418 0)
+			(at 245.872 39.878 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18364,7 +18392,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_B2B-PH-K-S(LF)(SN)"
-			(at 242.57 49.784 90)
+			(at 242.57 47.244 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18375,7 +18403,7 @@
 			)
 		)
 		(property "Footprint" "library:JST_B2B-PH-K-S_LF__SN_"
-			(at 245.11 45.72 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18385,7 +18413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 45.72 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18395,7 +18423,7 @@
 			)
 		)
 		(property "Description" "2.0 mm pitch/Disconnectable Crimp style connectors"
-			(at 245.11 45.72 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18405,7 +18433,7 @@
 			)
 		)
 		(property "Part number" "B2B-PH-K-S(LF)(SN)"
-			(at 241.808 45.974 90)
+			(at 241.808 43.434 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18414,7 +18442,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 245.11 45.72 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -18424,7 +18452,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 245.11 45.72 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19686,16 +19714,15 @@
 	)
 	(symbol
 		(lib_id "library:MountingHole")
-		(at 17.78 271.78 0)
+		(at 19.05 271.78 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "785c3ebe-f4bc-4e3e-ae0a-74f64420ef4b")
 		(property "Reference" "H39"
-			(at 20.32 270.5099 0)
+			(at 21.59 270.5099 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19705,7 +19732,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 273.0499 0)
+			(at 21.59 273.0499 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19715,7 +19742,7 @@
 			)
 		)
 		(property "Footprint" "library:MountingHole_2.7mm"
-			(at 17.78 271.78 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19725,7 +19752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 271.78 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -19735,7 +19762,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 271.78 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22079,16 +22106,15 @@
 	)
 	(symbol
 		(lib_id "library:MountingHole")
-		(at 17.78 278.13 0)
+		(at 19.05 278.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7e74f71-43b5-48a9-9613-891ce701044f")
 		(property "Reference" "H51"
-			(at 20.32 276.8599 0)
+			(at 21.59 276.8599 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22098,7 +22124,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 279.3999 0)
+			(at 21.59 279.3999 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22108,7 +22134,7 @@
 			)
 		)
 		(property "Footprint" "library:MountingHole_2.7mm"
-			(at 17.78 278.13 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22118,7 +22144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 278.13 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -22128,7 +22154,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 278.13 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24364,16 +24390,15 @@
 	)
 	(symbol
 		(lib_id "library:MountingHole")
-		(at 17.78 265.43 0)
+		(at 19.05 265.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1989a56-2c1d-402b-9ae0-248ede70679f")
 		(property "Reference" "H38"
-			(at 20.32 264.1599 0)
+			(at 21.59 264.1599 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24383,7 +24408,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 266.6999 0)
+			(at 21.59 266.6999 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24393,7 +24418,7 @@
 			)
 		)
 		(property "Footprint" "library:MountingHole_2.7mm"
-			(at 17.78 265.43 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24403,7 +24428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 265.43 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -24413,7 +24438,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 265.43 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -25919,16 +25944,15 @@
 	)
 	(symbol
 		(lib_id "library:MountingHole")
-		(at 17.78 259.08 0)
+		(at 19.05 259.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3aa8d9c-3e5f-45b3-9611-a7992531bcf2")
 		(property "Reference" "H33"
-			(at 20.32 257.8099 0)
+			(at 21.59 257.8099 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -25938,7 +25962,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 260.3499 0)
+			(at 21.59 260.3499 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -25948,7 +25972,7 @@
 			)
 		)
 		(property "Footprint" "library:MountingHole_2.7mm"
-			(at 17.78 259.08 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -25958,7 +25982,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 259.08 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -25968,7 +25992,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 259.08 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -26541,8 +26565,8 @@
 		)
 	)
 	(sheet
-		(at 260.35 39.37)
-		(size 19.05 24.13)
+		(at 260.35 36.83)
+		(size 19.05 26.035)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26555,8 +26579,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "51746a52-7f52-4ac2-bd2d-8efe72ed4090")
-		(property "Sheetname" "Power supply"
-			(at 260.35 38.608 0)
+		(property "Sheetname" "Power supply and LEDs"
+			(at 260.35 36.068 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -26566,7 +26590,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 260.35 64.262 0)
+			(at 260.604 63.754 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -26576,7 +26600,7 @@
 			)
 		)
 		(pin "3V3" passive
-			(at 260.35 41.91 180)
+			(at 260.35 39.37 180)
 			(uuid "ce611218-1191-452a-8f00-09d15e3ca01d")
 			(effects
 				(font
@@ -26586,7 +26610,7 @@
 			)
 		)
 		(pin "5V0" passive
-			(at 279.4 41.91 0)
+			(at 279.4 39.37 0)
 			(uuid "14fc3d08-3e65-47fb-aeea-d83260b3ee49")
 			(effects
 				(font
@@ -26596,7 +26620,7 @@
 			)
 		)
 		(pin "BATTERY_N" passive
-			(at 260.35 48.26 180)
+			(at 260.35 45.72 180)
 			(uuid "ca4e981e-87b1-4cef-be26-ecd9f7076a07")
 			(effects
 				(font
@@ -26606,7 +26630,7 @@
 			)
 		)
 		(pin "BATTERY_P" passive
-			(at 260.35 45.72 180)
+			(at 260.35 43.18 180)
 			(uuid "2a623219-3269-4b96-8d1f-7d3a748140a4")
 			(effects
 				(font
@@ -26615,8 +26639,8 @@
 				(justify left)
 			)
 		)
-		(pin "LOW_BATTERY" passive
-			(at 260.35 57.15 180)
+		(pin "LED_LBO" passive
+			(at 260.35 54.61 180)
 			(uuid "313265a8-55b7-4088-8785-79ead9f28d66")
 			(effects
 				(font
@@ -26626,7 +26650,7 @@
 			)
 		)
 		(pin "PM_SCL" bidirectional
-			(at 260.35 54.61 180)
+			(at 260.35 52.07 180)
 			(uuid "8557034b-08c6-47c5-93c0-7ccfde4d0d0c")
 			(effects
 				(font
@@ -26636,7 +26660,7 @@
 			)
 		)
 		(pin "PM_SDA" bidirectional
-			(at 260.35 52.07 180)
+			(at 260.35 49.53 180)
 			(uuid "6ad7daac-7a1a-4e7a-a0a4-f95fae99bcce")
 			(effects
 				(font
@@ -26648,6 +26672,16 @@
 		(pin "VBUS" passive
 			(at 260.35 60.96 180)
 			(uuid "0a071058-454c-48d8-b13d-cc0b2b954c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_SHUTTER" passive
+			(at 260.35 57.15 180)
+			(uuid "b741ba11-40f8-470f-867c-541bd3ee5e96")
 			(effects
 				(font
 					(size 1.27 1.27)
