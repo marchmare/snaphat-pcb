@@ -83,6 +83,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 146.64 159.819)
 		(grid_origin 169.25 131.679)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -1916,7 +1917,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -2210,7 +2211,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -5596,7 +5597,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -7525,7 +7526,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -7536,7 +7537,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -8253,7 +8254,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9512,7 +9513,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -9523,7 +9524,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -10177,7 +10178,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -10188,7 +10189,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -10441,7 +10442,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -10452,7 +10453,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -10811,7 +10812,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11064,7 +11065,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -11075,7 +11076,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -12058,7 +12059,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -13336,7 +13337,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -13347,7 +13348,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -14361,7 +14362,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -14897,7 +14898,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -16372,7 +16373,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -16383,7 +16384,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17100,7 +17101,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -19289,7 +19290,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -90 0 90)
 			)
 		)
 	)
@@ -20342,7 +20343,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -21421,7 +21422,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -23507,7 +23508,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -26598,7 +26599,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -26919,7 +26920,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -30146,7 +30147,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/b32-2010.stp"
@@ -30157,7 +30158,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 -0 -0)
+				(xyz 180 0 0)
 			)
 		)
 	)
@@ -31587,7 +31588,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -33285,7 +33286,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -0 90)
+				(xyz 90 0 90)
 			)
 		)
 		(model "/home/marmcl/Fun/kicad_libr/downloads/2-826656-0--3DModel-STEP-1.STEP"
@@ -33296,7 +33297,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 180 90)
+				(xyz 0 180 90)
 			)
 		)
 	)
@@ -35535,7 +35536,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -36560,7 +36561,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -36873,7 +36874,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -39227,7 +39228,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -40406,7 +40407,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -40717,7 +40718,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -44468,7 +44469,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -45260,7 +45261,7 @@
 		)
 	)
 	(gr_text "VBAT"
-		(at 239.19 111.01 -0)
+		(at 239.19 111.01 0)
 		(layer "B.SilkS")
 		(uuid "6155e205-245b-4634-a66b-86b6b83b033f")
 		(effects
@@ -45405,7 +45406,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 153.974977 77.400173 -0)
+		(at 153.974977 77.400173 0)
 		(layer "B.SilkS")
 		(uuid "fc32e0bb-f43e-41f4-9bd2-49b1b6ddcb0f")
 		(effects
@@ -45428,7 +45429,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "Prepared for manufacturing at JLCPCB\n	- Standard PCB\n	- min. via hole size/diameter: 0.3/0.4mm"
+	(gr_text "Prepared for manufacturing at JLCPCB\n	- Standard PCB\n	- 2 layers\n	- min. via hole size/diameter: 0.3/0.4mm"
 		(at 158.9 157.85 0)
 		(layer "Cmts.User")
 		(uuid "b829e876-e6c2-4a01-a3ab-94fbde1f0f6f")
@@ -45438,6 +45439,158 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "43085cce-3aab-4d7c-8a66-0253543346cb")
+		(pts
+			(xy 208.7 129.699) (xy 208.2 159.819)
+		)
+		(height 7.85)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 2)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "30.12"
+			(at 215.4 144.759 90)
+			(layer "Cmts.User")
+			(uuid "43085cce-3aab-4d7c-8a66-0253543346cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "76e44fc3-8ac0-4e3f-aa48-07fb4b282a57")
+		(pts
+			(xy 243.649954 128.5) (xy 243.649999 60.401321)
+		)
+		(height 7.940046)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 2)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "68.1"
+			(at 250.44 94.45066 90)
+			(layer "Cmts.User")
+			(uuid "76e44fc3-8ac0-4e3f-aa48-07fb4b282a57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "b13a2cd9-32cc-4a8e-81f8-18af19a8d2e4")
+		(pts
+			(xy 146.64 156.759) (xy 211.76 156.759)
+		)
+		(height 6.2)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 2)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "65.12"
+			(at 179.2 161.809 0)
+			(layer "Cmts.User")
+			(uuid "b13a2cd9-32cc-4a8e-81f8-18af19a8d2e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "c596947c-cb6d-46ec-9416-b4db4b44b98d")
+		(pts
+			(xy 246.6513 63.401363) (xy 146.65 63.399)
+		)
+		(height -6.782363)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 2)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "100"
+			(at 196.65065 55.469 0)
+			(layer "Cmts.User")
+			(uuid "c596947c-cb6d-46ec-9416-b4db4b44b98d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
