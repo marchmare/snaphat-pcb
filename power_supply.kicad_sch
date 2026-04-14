@@ -4757,6 +4757,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:R_330R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "library:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part number" "RC0402FR-07330RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_330R_0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_330R_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:R_330R_0805"
 			(pin_numbers
 				(hide yes)
@@ -6275,7 +6426,7 @@
 	)
 	(text "RaspberryPi controlled indicators"
 		(exclude_from_sim no)
-		(at 249.682 110.744 0)
+		(at 249.682 103.124 0)
 		(effects
 			(font
 				(face "Quicksand")
@@ -6328,12 +6479,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03dc74f2-6d56-43ca-b8e7-dca689d1606e")
-	)
-	(junction
-		(at 273.05 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05624393-7fd5-43fb-8ddb-dd2579efdfd2")
 	)
 	(junction
 		(at 116.84 46.99)
@@ -6394,6 +6539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53cda1dd-76df-4185-801d-bdf9d2fc4914")
+	)
+	(junction
+		(at 262.89 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b5f4579-38ab-45a5-a70a-32697d626408")
 	)
 	(junction
 		(at 90.17 39.37)
@@ -6605,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 120.65) (xy 257.81 120.65)
+			(xy 255.27 113.03) (xy 257.81 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6695,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 118.11) (xy 237.49 120.65)
+			(xy 237.49 110.49) (xy 237.49 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6715,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 138.43) (xy 255.27 138.43)
+			(xy 259.08 149.86) (xy 256.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7035,6 +7186,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 149.86) (xy 248.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51973cca-0e04-4d67-957c-32239f220579")
+	)
+	(wire
+		(pts
 			(xy 121.92 58.42) (xy 119.38 58.42)
 		)
 		(stroke
@@ -7065,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 120.65) (xy 273.05 123.19)
+			(xy 273.05 113.03) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7195,6 +7356,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 120.65) (xy 265.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fdae12-a4b9-4574-a5a9-65c0c129157d")
+	)
+	(wire
+		(pts
 			(xy 247.65 69.85) (xy 247.65 72.39)
 		)
 		(stroke
@@ -7235,6 +7406,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 149.86) (xy 273.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f993bfd-772f-4bb7-97b1-c56549b49c5a")
+	)
+	(wire
+		(pts
 			(xy 96.52 168.91) (xy 96.52 166.37)
 		)
 		(stroke
@@ -7255,7 +7436,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 120.65) (xy 273.05 120.65)
+			(xy 265.43 113.03) (xy 273.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7335,16 +7516,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 138.43) (xy 273.05 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d86ae4e-06ac-43a7-b8bd-a281ce66eb52")
-	)
-	(wire
-		(pts
 			(xy 39.37 41.91) (xy 41.91 41.91)
 		)
 		(stroke
@@ -7392,6 +7563,16 @@
 			(type solid)
 		)
 		(uuid "83007dca-4f8b-4403-a08a-231656edae6a")
+	)
+	(wire
+		(pts
+			(xy 262.89 130.81) (xy 262.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844b91a0-5225-4df9-ae5e-ce2dee6740c7")
 	)
 	(wire
 		(pts
@@ -7522,16 +7703,6 @@
 			(type default)
 		)
 		(uuid "98924531-8892-48eb-8220-e1f536149136")
-	)
-	(wire
-		(pts
-			(xy 265.43 138.43) (xy 273.05 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a809b9-50f8-4a9a-a226-c3b9a938630f")
 	)
 	(wire
 		(pts
@@ -7675,7 +7846,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 120.65) (xy 247.65 120.65)
+			(xy 237.49 113.03) (xy 247.65 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7765,7 +7936,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 133.35) (xy 273.05 138.43)
+			(xy 273.05 125.73) (xy 273.05 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7875,6 +8046,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 149.86) (xy 273.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf4c058-b005-4324-b7cd-8da502e2dd16")
+	)
+	(wire
+		(pts
 			(xy 53.34 39.37) (xy 60.96 39.37)
 		)
 		(stroke
@@ -7952,6 +8133,16 @@
 			(type default)
 		)
 		(uuid "dbc019b9-8192-4596-a295-653dbc7665e6")
+	)
+	(wire
+		(pts
+			(xy 259.08 120.65) (xy 262.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfcaff5-2fcd-44b5-9310-c43c105381f5")
 	)
 	(wire
 		(pts
@@ -8125,6 +8316,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 120.65) (xy 262.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78f9f5e-c11a-435a-b8ed-a189e3eaa704")
+	)
+	(wire
+		(pts
 			(xy 124.46 115.57) (xy 130.81 115.57)
 		)
 		(stroke
@@ -8185,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 128.27) (xy 257.81 128.27)
+			(xy 247.65 120.65) (xy 251.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8351,7 +8552,7 @@
 	)
 	(hierarchical_label "LED_SHUTTER"
 		(shape passive)
-		(at 247.65 128.27 180)
+		(at 247.65 120.65 180)
 		(effects
 			(font
 				(face "Quicksand")
@@ -8387,7 +8588,7 @@
 	)
 	(hierarchical_label "LED_LBO"
 		(shape passive)
-		(at 247.65 138.43 180)
+		(at 243.84 149.86 180)
 		(effects
 			(font
 				(face "Quicksand")
@@ -8566,6 +8767,7 @@
 			(at 241.3 50.8 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8575,6 +8777,7 @@
 			(at 241.3 50.8 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8820,7 +9023,7 @@
 	)
 	(symbol
 		(lib_id "library:LED_R_MP008293")
-		(at 251.46 138.43 0)
+		(at 252.73 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8830,7 +9033,7 @@
 		(fields_autoplaced yes)
 		(uuid "19de5e3e-f0ed-4cbb-8a78-366f5508ab50")
 		(property "Reference" "D3"
-			(at 253.0475 132.08 0)
+			(at 254.3175 143.51 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8839,7 +9042,7 @@
 			)
 		)
 		(property "Value" "0805 R LED"
-			(at 253.0475 134.62 0)
+			(at 254.3175 146.05 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8848,7 +9051,7 @@
 			)
 		)
 		(property "Footprint" "library:LED_0805_2012Metric"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8858,7 +9061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8868,7 +9071,7 @@
 			)
 		)
 		(property "Description" "LED, RED, 200MCD, 475NM, 0805"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8878,7 +9081,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8888,7 +9091,7 @@
 			)
 		)
 		(property "Part number" "MP008293"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -8898,7 +9101,7 @@
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 251.46 138.43 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -9122,6 +9325,111 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_330R_0402")
+		(at 262.89 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c7adce-98d4-44c9-95c3-2b5ff772b6f4")
+		(property "Reference" "R29"
+			(at 265.43 125.7299 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 265.43 128.2699 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:R_0402_1005Metric"
+			(at 261.112 127 90)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-07330RL"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2cedf37-042b-4b46-978b-1d1eaa769374")
+		)
+		(pin "2"
+			(uuid "19790757-f7f4-4522-9864-24158184fe0e")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10173,7 +10481,7 @@
 	)
 	(symbol
 		(lib_id "library:R_100R_0402")
-		(at 261.62 120.65 90)
+		(at 261.62 113.03 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10182,7 +10490,7 @@
 		(dnp no)
 		(uuid "3d588887-e8c5-41fd-ba27-3fd2ba39c13e")
 		(property "Reference" "R17"
-			(at 261.62 118.11 90)
+			(at 261.62 110.49 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -10191,69 +10499,76 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 261.62 120.65 90)
+			(at 261.62 113.03 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "library:R_0402_1005Metric"
-			(at 261.62 118.872 90)
+			(at 261.62 111.252 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "SKU" ""
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Part number" "RC0402JR-07100RL"
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Part name" ""
-			(at 261.62 120.65 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11072,7 +11387,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 237.49 118.11 0)
+		(at 237.49 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11080,7 +11395,7 @@
 		(dnp no)
 		(uuid "610caa90-c967-42fc-ba9d-dbb58f1ed1e4")
 		(property "Reference" "#PWR030"
-			(at 237.49 121.92 0)
+			(at 237.49 114.3 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11090,7 +11405,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 237.49 113.03 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11099,7 +11414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 118.11 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11109,7 +11424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 118.11 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -11119,7 +11434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 118.11 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -12597,6 +12912,77 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 273.05 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78f58f73-3c55-427e-bacd-8823125c0ece")
+		(property "Reference" "#PWR050"
+			(at 273.05 158.75 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 152.4 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 152.4 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 152.4 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de7b46e7-74e7-4ac3-a3a5-8a59bd703d7e")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 60.96 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13538,7 +13924,7 @@
 	)
 	(symbol
 		(lib_id "library:LED_B_MP008292")
-		(at 251.46 120.65 0)
+		(at 251.46 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13548,7 +13934,7 @@
 		(fields_autoplaced yes)
 		(uuid "909f8391-2e49-4744-b054-a705e51b645c")
 		(property "Reference" "D10"
-			(at 253.0475 114.3 0)
+			(at 253.0475 106.68 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13557,7 +13943,7 @@
 			)
 		)
 		(property "Value" "0805 B LED"
-			(at 253.0475 116.84 0)
+			(at 253.0475 109.22 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -13566,54 +13952,60 @@
 			)
 		)
 		(property "Footprint" "library:LED_0805_2012Metric"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "LED, BLUE, 200MCD, 475NM, 0805"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Part number" "MP008292"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 251.46 120.65 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14018,6 +14410,77 @@
 			(project "snaphat"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9334a2-0da3-4c21-915b-c6298c739e3c")
+		(property "Reference" "#PWR029"
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(face "Quicksand")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33cab482-5085-4e8e-89aa-ee777c54d988")
+		)
+		(instances
+			(project "snaphat"
+				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51/51746a52-7f52-4ac2-bd2d-8efe72ed4090"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14649,7 +15112,7 @@
 	)
 	(symbol
 		(lib_id "library:R_1k_0402")
-		(at 261.62 128.27 90)
+		(at 255.27 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14657,7 +15120,7 @@
 		(dnp no)
 		(uuid "b19f904f-ce46-480b-a5b4-d5b3cf128589")
 		(property "Reference" "R2"
-			(at 261.62 125.73 90)
+			(at 255.27 118.11 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14666,7 +15129,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 261.62 128.27 90)
+			(at 255.27 120.65 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14675,7 +15138,7 @@
 			)
 		)
 		(property "Footprint" "library:R_0402_1005Metric"
-			(at 261.62 130.048 90)
+			(at 255.27 122.428 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14685,7 +15148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14695,7 +15158,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14705,7 +15168,7 @@
 			)
 		)
 		(property "SKU" ""
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14715,7 +15178,7 @@
 			)
 		)
 		(property "Part number" "RC0402FR-071KL"
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14725,7 +15188,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -14735,7 +15198,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 261.62 128.27 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15651,7 +16114,7 @@
 	)
 	(symbol
 		(lib_id "library:Q_BC817-25")
-		(at 271.78 128.27 0)
+		(at 271.78 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15659,7 +16122,7 @@
 		(dnp no)
 		(uuid "cca408bb-abb3-4e46-80e1-afb591bb949e")
 		(property "Reference" "Q3"
-			(at 276.352 135.89 90)
+			(at 276.352 125.984 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15669,7 +16132,7 @@
 			)
 		)
 		(property "Value" "Q_BC817-25"
-			(at 275.59 129.5399 0)
+			(at 275.59 121.9199 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15680,7 +16143,7 @@
 			)
 		)
 		(property "Footprint" "library:SOT-23"
-			(at 335.28 128.27 0)
+			(at 335.28 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15690,7 +16153,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 335.28 128.27 0)
+			(at 335.28 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15700,7 +16163,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 271.78 128.27 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15710,7 +16173,7 @@
 			)
 		)
 		(property "Part number" "BC817-25"
-			(at 276.352 130.556 90)
+			(at 276.352 122.936 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15720,7 +16183,7 @@
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 276.86 131.826 0)
+			(at 276.86 124.206 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15731,7 +16194,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 271.78 128.27 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15741,7 +16204,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 271.78 128.27 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15751,7 +16214,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 271.78 128.27 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15761,7 +16224,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 271.78 128.27 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15789,7 +16252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 140.97 0)
+		(at 273.05 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15798,7 +16261,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0bcff2e-ad74-4364-b544-9babfc6b419a")
 		(property "Reference" "#PWR026"
-			(at 273.05 147.32 0)
+			(at 273.05 139.7 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15808,7 +16271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 146.05 0)
+			(at 273.05 138.43 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15817,7 +16280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 140.97 0)
+			(at 273.05 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15827,7 +16290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 140.97 0)
+			(at 273.05 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -15837,7 +16300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 140.97 0)
+			(at 273.05 133.35 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17058,7 +17521,7 @@
 	)
 	(symbol
 		(lib_id "library:R_47R_0402")
-		(at 261.62 138.43 270)
+		(at 262.89 149.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17067,7 +17530,7 @@
 		(dnp no)
 		(uuid "ef5ce9a8-9809-45c3-b311-d8e3fbdfce09")
 		(property "Reference" "R10"
-			(at 261.62 135.89 90)
+			(at 262.89 147.32 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17076,7 +17539,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 261.62 138.43 90)
+			(at 262.89 149.86 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17085,7 +17548,7 @@
 			)
 		)
 		(property "Footprint" "library:R_0402_1005Metric"
-			(at 261.62 140.208 90)
+			(at 262.89 151.638 90)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17095,7 +17558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17105,7 +17568,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17115,7 +17578,7 @@
 			)
 		)
 		(property "SKU" ""
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17125,7 +17588,7 @@
 			)
 		)
 		(property "Part number" "RC0402JR-0747RL"
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17135,7 +17598,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")
@@ -17145,7 +17608,7 @@
 			)
 		)
 		(property "Part name" ""
-			(at 261.62 138.43 0)
+			(at 262.89 149.86 0)
 			(effects
 				(font
 					(face "Quicksand")

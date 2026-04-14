@@ -12858,6 +12858,7 @@
 			(at 233.68 60.96 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -12867,6 +12868,7 @@
 			(at 233.68 60.96 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14758,6 +14760,7 @@
 			(at 265.938 75.438 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14767,6 +14770,7 @@
 			(at 262.89 76.2 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14776,6 +14780,7 @@
 			(at 262.89 76.2 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14785,6 +14790,7 @@
 			(at 262.89 76.2 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -14794,6 +14800,7 @@
 			(at 265.684 77.216 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 			)
@@ -14802,6 +14809,7 @@
 			(at 262.89 76.2 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19354,6 +19362,7 @@
 			(at 341.63 67.31 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19363,6 +19372,7 @@
 			(at 341.63 59.69 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19372,6 +19382,7 @@
 			(at 341.63 59.69 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19381,6 +19392,7 @@
 			(at 341.63 59.69 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19390,6 +19402,7 @@
 			(at 339.09 60.452 90)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 			)
@@ -19398,6 +19411,7 @@
 			(at 341.63 59.69 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23169,15 +23183,17 @@
 			(at 323.342 118.11 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10-04-D-0030-C-4-08-4-T"
-			(at 331.724 119.634 0)
+			(at 335.28 118.11 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23187,6 +23203,7 @@
 			(at 327.66 116.84 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23196,6 +23213,7 @@
 			(at 327.66 116.84 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23205,6 +23223,7 @@
 			(at 327.66 116.84 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23214,6 +23233,7 @@
 			(at 327.66 116.84 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23223,6 +23243,7 @@
 			(at 332.486 118.11 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 			)
@@ -23231,6 +23252,7 @@
 			(at 327.66 116.84 0)
 			(effects
 				(font
+					(face "Quicksand")
 					(size 1.27 1.27)
 				)
 				(hide yes)
