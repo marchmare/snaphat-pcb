@@ -9273,6 +9273,18 @@
 		)
 		(uuid "6a984ecd-fe23-442e-a247-e79e1decabc9")
 	)
+	(text "TODO:\nD8 - mismatched MPN and footprint"
+		(exclude_from_sim no)
+		(at 199.898 33.528 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bef977b-98d6-42cf-b532-c58f7a0aad5d")
+	)
 	(text "GPIO9(MISO)\n"
 		(exclude_from_sim no)
 		(at 129.54 191.77 0)
@@ -9285,6 +9297,18 @@
 			(justify left bottom)
 		)
 		(uuid "82fb4b96-3ad0-4c9f-a81d-3ef7b5655e2d")
+	)
+	(text "TODO:\nroute pin 1 to GND\n(prevents SnapHAT staying powered\nwhen USB is plugged \nand SW9 is in off state)"
+		(exclude_from_sim no)
+		(at 256.794 89.408 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84b6dc59-7135-41c2-92f2-bf2c02c9dd26")
 	)
 	(text "Tact switch caps:"
 		(exclude_from_sim no)
@@ -13369,7 +13393,7 @@
 			(uuid "37b01e33-0d26-4c68-a4a1-5e23770c6199")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "D9")
 					(unit 1)
@@ -13461,7 +13485,7 @@
 			(uuid "6c6342f2-f481-4e5e-a094-9ade47067c2c")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "D7")
 					(unit 1)
@@ -13550,7 +13574,7 @@
 			(uuid "dbb8d6f5-2631-4420-8a51-d868076854d3")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H26")
 					(unit 1)
@@ -13656,7 +13680,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H3")
 					(unit 1)
@@ -13764,7 +13788,7 @@
 			(uuid "6810ab19-1428-4edf-b31a-1c94f27aadf6")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW1")
 					(unit 1)
@@ -13870,7 +13894,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H1")
 					(unit 1)
@@ -13976,7 +14000,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H2")
 					(unit 1)
@@ -14057,7 +14081,7 @@
 			(uuid "ec823419-5eea-4246-87e2-1813110a1a58")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP10")
 					(unit 1)
@@ -14155,7 +14179,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H44")
 					(unit 1)
@@ -14227,7 +14251,7 @@
 			(uuid "49624538-9e9d-4246-b511-089cf046b7e2")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR037")
 					(unit 1)
@@ -14333,7 +14357,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H7")
 					(unit 1)
@@ -14439,7 +14463,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H48")
 					(unit 1)
@@ -14544,7 +14568,7 @@
 			(uuid "bc012463-a7c7-43fb-a8ca-92fb2e3124e5")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R28")
 					(unit 1)
@@ -14615,7 +14639,7 @@
 			(uuid "73323d47-fcdf-454b-859f-e547be11edc8")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR084")
 					(unit 1)
@@ -14720,7 +14744,7 @@
 			(uuid "71ab42cd-4c70-4a8f-8e04-97bdcc4210a7")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J5")
 					(unit 1)
@@ -14809,7 +14833,7 @@
 			(uuid "687a6c13-3766-4bcd-bfc4-3b9dcf31205b")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H32")
 					(unit 1)
@@ -14908,7 +14932,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H40")
 					(unit 1)
@@ -15325,7 +15349,7 @@
 			(uuid "502c117c-b058-4bdc-9e0d-13fc7c32313c")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW6")
 					(unit 1)
@@ -15433,7 +15457,7 @@
 			(uuid "34e684f9-6a29-4642-8057-161623c6af01")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW5")
 					(unit 1)
@@ -15635,7 +15659,7 @@
 			(uuid "e737c0ea-69cb-451f-9345-fc3da448efe7")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J6")
 					(unit 1)
@@ -15841,7 +15865,7 @@
 			(uuid "0cdebc03-019c-4ef6-aa27-f68a0e278140")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C15")
 					(unit 1)
@@ -15947,7 +15971,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H4")
 					(unit 1)
@@ -16044,7 +16068,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H11")
 					(unit 1)
@@ -16150,7 +16174,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H6")
 					(unit 1)
@@ -16250,7 +16274,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H34")
 					(unit 1)
@@ -16433,7 +16457,7 @@
 			(uuid "8a2752e0-d726-4e1d-ae70-22611f5070ba")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR060")
 					(unit 1)
@@ -16576,7 +16600,7 @@
 			(uuid "4eb0e87f-b265-495b-9335-204b87a30110")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR087")
 					(unit 1)
@@ -16682,7 +16706,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H18")
 					(unit 1)
@@ -16780,7 +16804,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H47")
 					(unit 1)
@@ -16887,7 +16911,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H16")
 					(unit 1)
@@ -16984,7 +17008,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H22")
 					(unit 1)
@@ -17054,7 +17078,7 @@
 			(uuid "43d33bb2-f19d-4893-80f8-5857eb900763")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR082")
 					(unit 1)
@@ -17160,7 +17184,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H5")
 					(unit 1)
@@ -17242,7 +17266,7 @@
 			(uuid "875fbe08-2fb7-40fb-9fe6-427ae3012f41")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP14")
 					(unit 1)
@@ -17313,7 +17337,7 @@
 			(uuid "f80ff341-9c30-4a8d-b4a0-a57b05a8303d")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR025")
 					(unit 1)
@@ -17394,7 +17418,7 @@
 			(uuid "b0198b58-c2c1-4b55-8b4a-c13cb6c4fed1")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP7")
 					(unit 1)
@@ -17466,7 +17490,7 @@
 			(uuid "ca9a68a5-2dd5-41fd-a344-81d48875ba96")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR015")
 					(unit 1)
@@ -17537,7 +17561,7 @@
 			(uuid "f19591b6-1d5e-4cdf-9066-5b09df9d9cad")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR088")
 					(unit 1)
@@ -17608,7 +17632,7 @@
 			(uuid "6a58d7df-b1f1-4c9e-b67e-d8639bda8662")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR056")
 					(unit 1)
@@ -17689,7 +17713,7 @@
 			(uuid "cde15d3c-b4b6-4f4d-9df5-eb0aa4b1b8cc")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP1")
 					(unit 1)
@@ -17800,7 +17824,7 @@
 			(uuid "ba13e69d-de49-4f22-817a-01c30ca98f98")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R26")
 					(unit 1)
@@ -17871,7 +17895,7 @@
 			(uuid "5239987c-bfd5-43c0-bfcf-4cf4700579c2")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR01")
 					(unit 1)
@@ -17968,7 +17992,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H52")
 					(unit 1)
@@ -18079,7 +18103,7 @@
 			(uuid "8bec8d57-db6b-4c42-8ad8-ba3089f85d43")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R1")
 					(unit 1)
@@ -18178,7 +18202,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H43")
 					(unit 1)
@@ -18275,7 +18299,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H21")
 					(unit 1)
@@ -18346,7 +18370,7 @@
 			(uuid "88fec154-2d43-4f84-9883-ee8b42443568")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR048")
 					(unit 1)
@@ -18418,7 +18442,7 @@
 			(uuid "4b4c4163-d006-46e4-994f-93410bc92066")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR016")
 					(unit 1)
@@ -18489,7 +18513,7 @@
 			(uuid "e8d8fc06-13fc-4f77-a0d2-768cf76917dc")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR021")
 					(unit 1)
@@ -18560,7 +18584,7 @@
 			(uuid "e39e8178-7f8d-4f70-876d-46437ea1cd3b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR083")
 					(unit 1)
@@ -18657,7 +18681,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H25")
 					(unit 1)
@@ -18763,7 +18787,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H8")
 					(unit 1)
@@ -18978,7 +19002,7 @@
 			(uuid "8279f8df-c3e8-4d0a-a57a-9ecbcd786686")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J2")
 					(unit 1)
@@ -19049,7 +19073,7 @@
 			(uuid "ba8965d8-3d47-490c-aee4-269d0bfb24be")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR02")
 					(unit 1)
@@ -19145,7 +19169,7 @@
 			(uuid "68932ee4-fe27-4499-9a87-bde90cfa98b1")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "D8")
 					(unit 1)
@@ -19323,7 +19347,7 @@
 			(uuid "0e4ff71a-33d4-4138-a4da-59bad5970368")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW2")
 					(unit 1)
@@ -19395,7 +19419,7 @@
 			(uuid "1dcf5a4c-1352-4148-9dc2-1fb64b2243d4")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR014")
 					(unit 1)
@@ -19499,7 +19523,7 @@
 			(uuid "12441e10-7fdc-4dc8-9100-dadaf0cfdf06")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J3")
 					(unit 1)
@@ -19570,7 +19594,7 @@
 			(uuid "501405fd-2692-4f71-9faf-300dd5fcf550")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR017")
 					(unit 1)
@@ -19694,7 +19718,7 @@
 			(uuid "5c44083f-cdba-4049-905a-42e89b9be6e8")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "D1")
 					(unit 1)
@@ -19828,7 +19852,7 @@
 			(uuid "19c91366-8abf-450f-8880-4664c608c5f3")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C22")
 					(unit 1)
@@ -19899,7 +19923,7 @@
 			(uuid "a606abed-2d4c-47a2-9a03-11b057b3928b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR05")
 					(unit 1)
@@ -19970,7 +19994,7 @@
 			(uuid "b631673b-abfa-4d77-b90c-8062c8cbb0c2")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR011")
 					(unit 1)
@@ -20077,7 +20101,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H50")
 					(unit 1)
@@ -20176,7 +20200,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H41")
 					(unit 1)
@@ -20265,7 +20289,7 @@
 			(uuid "370a4f8b-2a7f-4ac9-81e1-77fdfa187ae3")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H30")
 					(unit 1)
@@ -20449,7 +20473,7 @@
 			(uuid "b7739ac4-5d10-4f5d-815c-541fd904ab68")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR094")
 					(unit 1)
@@ -20546,7 +20570,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H23")
 					(unit 1)
@@ -20654,7 +20678,7 @@
 			(uuid "234a1dd4-6104-4a22-9d35-c2e51803a69c")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW4")
 					(unit 1)
@@ -20669,7 +20693,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "785c3ebe-f4bc-4e3e-ae0a-74f64420ef4b")
 		(property "Reference" "H39"
 			(at 21.59 270.5099 0)
@@ -20722,7 +20746,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H39")
 					(unit 1)
@@ -20864,7 +20888,7 @@
 			(uuid "1d735aba-a0d7-41ac-951f-cc9acc20897b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR090")
 					(unit 1)
@@ -21001,7 +21025,7 @@
 			(uuid "39c78920-f24c-406a-938f-46c509b24346")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J4")
 					(unit 1)
@@ -21132,7 +21156,7 @@
 			(uuid "9e64bb3d-275d-41c6-a1d8-fe75ef14805c")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "U6")
 					(unit 1)
@@ -21285,7 +21309,7 @@
 			(uuid "add1deaa-c7f0-4e58-89c2-fae3175ec8d3")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR022")
 					(unit 1)
@@ -21391,7 +21415,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H15")
 					(unit 1)
@@ -21497,7 +21521,7 @@
 			(uuid "35cf9abc-4da6-44bf-b99b-f2f5100c6545")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "BZ1")
 					(unit 1)
@@ -21568,7 +21592,7 @@
 			(uuid "c81d872b-d4df-45a8-a948-9c41221301e2")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR086")
 					(unit 1)
@@ -21674,7 +21698,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H49")
 					(unit 1)
@@ -21884,7 +21908,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H12")
 					(unit 1)
@@ -21981,7 +22005,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H24")
 					(unit 1)
@@ -22052,7 +22076,7 @@
 			(uuid "8e0e13ea-689d-439a-8020-88e3532150c2")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR028")
 					(unit 1)
@@ -22165,7 +22189,7 @@
 			(uuid "8cf4a15d-c28c-4334-a508-82db4e87e246")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R4")
 					(unit 1)
@@ -22262,7 +22286,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H20")
 					(unit 1)
@@ -22368,7 +22392,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H17")
 					(unit 1)
@@ -22457,7 +22481,7 @@
 			(uuid "85945aa3-f4bf-48aa-b8a0-33976fc552e8")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H31")
 					(unit 1)
@@ -22632,7 +22656,7 @@
 			(uuid "ae466d4c-81bc-4fe9-a247-514ad000f887")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR06")
 					(unit 1)
@@ -22802,7 +22826,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H42")
 					(unit 1)
@@ -22945,7 +22969,7 @@
 			(uuid "51be57f4-0a2e-45fa-b82b-fec5c91169a7")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR013")
 					(unit 1)
@@ -23044,7 +23068,7 @@
 			(uuid "48355249-6aff-4d52-ac39-2fcf1da8a190")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW8")
 					(unit 1)
@@ -23141,7 +23165,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H10")
 					(unit 1)
@@ -23212,7 +23236,7 @@
 			(uuid "9db41650-3283-4ea8-8d8b-9d5c79dcc1cf")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR010")
 					(unit 1)
@@ -23283,7 +23307,7 @@
 			(uuid "f75a3a5a-4cdb-4a77-b570-a2774f4fcb0e")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR04")
 					(unit 1)
@@ -23298,7 +23322,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7e74f71-43b5-48a9-9613-891ce701044f")
 		(property "Reference" "H51"
 			(at 21.59 276.8599 0)
@@ -23351,7 +23375,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H51")
 					(unit 1)
@@ -23422,7 +23446,7 @@
 			(uuid "bce8b448-52bd-48c9-ba46-2e365b0e981c")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR09")
 					(unit 1)
@@ -23535,7 +23559,7 @@
 			(uuid "4c0552f2-8aee-4454-b072-bfea1a11d91d")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R5")
 					(unit 1)
@@ -23669,7 +23693,7 @@
 			(uuid "6994d78f-de18-48a4-a5f0-1065c7f27d87")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C19")
 					(unit 1)
@@ -23740,7 +23764,7 @@
 			(uuid "47e9f63e-7565-438f-b54a-a7102968200b")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR027")
 					(unit 1)
@@ -23837,7 +23861,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H9")
 					(unit 1)
@@ -23990,7 +24014,7 @@
 			(uuid "5e638409-ed81-4bbb-92b8-dda5f4ec723b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR085")
 					(unit 1)
@@ -24071,7 +24095,7 @@
 			(uuid "41bdcf15-ddd8-49ab-981b-90161b705716")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP13")
 					(unit 1)
@@ -24290,7 +24314,7 @@
 			(uuid "0873c07f-8785-495e-bc86-648deffc24aa")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW3")
 					(unit 1)
@@ -24361,7 +24385,7 @@
 			(uuid "f0836c3a-7324-4edc-9418-532b7fa7be7e")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR012")
 					(unit 1)
@@ -24562,7 +24586,7 @@
 			(uuid "d96cb6b8-a186-4289-9ecd-e0dfa7d525b5")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H29")
 					(unit 1)
@@ -24660,7 +24684,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H46")
 					(unit 1)
@@ -24757,7 +24781,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H19")
 					(unit 1)
@@ -24838,7 +24862,7 @@
 			(uuid "992f01ff-7daa-4064-8381-81522aba9e77")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "TP12")
 					(unit 1)
@@ -24909,7 +24933,7 @@
 			(uuid "6674e1c8-b374-4935-afc4-4b2710fe9c3b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR07")
 					(unit 1)
@@ -25020,7 +25044,7 @@
 			(uuid "cfc05e98-cb95-4440-80a8-b74da726faea")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "R25")
 					(unit 1)
@@ -25091,7 +25115,7 @@
 			(uuid "0e29cc52-26a2-4649-a73e-f8d019bab01a")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR064")
 					(unit 1)
@@ -25225,7 +25249,7 @@
 			(uuid "7f0b3139-d8e8-4439-8fb6-f2621f0bd45d")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C9")
 					(unit 1)
@@ -25332,7 +25356,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H14")
 					(unit 1)
@@ -25403,7 +25427,7 @@
 			(uuid "ddb7549b-0497-41e2-ad71-fe2c5d1b1c7b")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR03")
 					(unit 1)
@@ -25661,7 +25685,7 @@
 			(uuid "f86cd490-8cc8-4f08-81c7-2db856a6e8ca")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "J1")
 					(unit 1)
@@ -25733,7 +25757,7 @@
 			(uuid "832a6817-35c7-476e-bc2a-520e6d9f9566")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR099")
 					(unit 1)
@@ -25931,7 +25955,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1989a56-2c1d-402b-9ae0-248ede70679f")
 		(property "Reference" "H38"
 			(at 21.59 264.1599 0)
@@ -25984,7 +26008,7 @@
 			)
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H38")
 					(unit 1)
@@ -26084,7 +26108,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H53")
 					(unit 1)
@@ -26190,7 +26214,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H13")
 					(unit 1)
@@ -26261,7 +26285,7 @@
 			(uuid "df0bb027-26ac-4130-93f7-acff5feeb2ce")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR08")
 					(unit 1)
@@ -26395,7 +26419,7 @@
 			(uuid "996add8a-dc22-4ff0-8491-ed9617e6950c")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C20")
 					(unit 1)
@@ -26466,7 +26490,7 @@
 			(uuid "41307fae-8246-47ab-8b4d-965824fc65e7")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR091")
 					(unit 1)
@@ -26537,7 +26561,7 @@
 			(uuid "03f853ff-0431-4da6-8634-0fbd3ad178f6")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR023")
 					(unit 1)
@@ -26671,7 +26695,7 @@
 			(uuid "fb5900e5-871d-4cfe-ad65-59b7cba44ece")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "C2")
 					(unit 1)
@@ -26810,7 +26834,7 @@
 			(uuid "8596612f-b352-45e2-9fab-71841efbeda6")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "Q1")
 					(unit 1)
@@ -27130,7 +27154,7 @@
 			(uuid "f2c4ac20-682b-4caa-9539-0208cd46323d")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "SW7")
 					(unit 1)
@@ -27313,7 +27337,7 @@
 			(uuid "0c17dacf-5225-474d-8b1f-e5310726da52")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR045")
 					(unit 1)
@@ -27402,7 +27426,7 @@
 			(uuid "47663de2-d223-436a-9f40-bc0e8449b12f")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H27")
 					(unit 1)
@@ -27473,7 +27497,7 @@
 			(uuid "98ae9644-b49a-48b4-850b-e71e647a7fb7")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR024")
 					(unit 1)
@@ -27488,7 +27512,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f3aa8d9c-3e5f-45b3-9611-a7992531bcf2")
 		(property "Reference" "H33"
 			(at 21.59 257.8099 0)
@@ -27541,7 +27565,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H33")
 					(unit 1)
@@ -27630,7 +27654,7 @@
 			(uuid "e50c3bba-d9e2-46c4-b98e-9a408d010dd6")
 		)
 		(instances
-			(project "snaphat"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H28")
 					(unit 1)
@@ -27728,7 +27752,7 @@
 			)
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "H45")
 					(unit 1)
@@ -27899,7 +27923,7 @@
 			(uuid "35754f2a-775c-4f4e-a00a-e0329434b24e")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR081")
 					(unit 1)
@@ -27970,7 +27994,7 @@
 			(uuid "7603dff5-1fab-4b15-9f54-113f83fd8789")
 		)
 		(instances
-			(project "library"
+			(project "main_board"
 				(path "/1b9269fa-3ac8-429a-ab83-4cc9a4203d51"
 					(reference "#PWR089")
 					(unit 1)
