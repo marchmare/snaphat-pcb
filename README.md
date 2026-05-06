@@ -7,13 +7,17 @@ SnapHAT is an addon for RaspberryPi Zero 2 W serving as a handheld photo camera 
 This repository contains KiCad 9 design files for the PCBs of the SnapHAT device.
 The boards' layout is prepared to be compatible with JLCPCB standard 2-layer PCB quote.
 
+> [!WARNING] 
+> This repository is work in progress — core features are functional, but the PCB for this device is still evolving and some parts of the design are not yet behaving as I hoped.
+> To avoid unnecessary hardware headaches, check [Troubleshooting and required reworks](#troubleshooting-and-required-reworks) section!
+
 ### Table of contents:
 
 * [Features](#features)
 * [Repository structure](#repository-structure)
 * [Bill of Materials](#bill-of-materials)
 * [RaspberryPi header connection map](#raspberrypi-header-connection-map)
-* [Troubleshooting](#troubleshooting)
+* [Troubleshooting and required reworks](#troubleshooting-and-required-reworks)
 
 ## Features
 
@@ -96,6 +100,18 @@ Below table describes connected RaspberryPi GPIO pins and their intended functio
 | Shutter button            | `BTN_SHUTTER`      | 26         | **37** | **38** | 20         | `ACCEL_INT1`     | Motion sensor interrupt 1      |
 | Ground                    | `GND`              | -          | **39** | **40** | 21         | `ACCEL_INT2`     | Motion sensor interrupt 2      |
 
-## Troubleshooting
+## Troubleshooting and required reworks
 
-Some sources noted that USB via pogo-pin connection doesn't work when Wi-Fi is enabled due to signal interference. If that's the case, RaspberryPi should be accessed through UART rather than `ssh`. 
+This revision's battery circuit (protection, charger and 5V boost) is still botched. Aside from this, SnapHAT is operational if powered by an external stable 5V supply like PC USB port or powerbank.
+
+To make SnapHAT work in this case, simply connect VBUS to 5V0 (you can solder a wire between corresponding testpads). Keep the SW9 switch off to disable the battery charger circuit and prevent charging indicators flickering.
+
+If you wish to dwell deeper into what's currently wrong with this design, here are symptoms observed during bringup:
+
+* no power sourced from battery:
+    - battery protection dual MOSFET have wrong topology, skip populating battery protection components entirely and populate R22 and R23 0R resistors instead to connect battery directly to the rest of the circuit. Make sure you use battery with a PCM in this case! 
+* RaspberryPi stuck in boot loop when powering from battery or weaker USB port:
+    - battery charging/boost regulator circuit is still wrong in this iteration, for the time being, connect VBUS testpad with the 5V0 one
+* SnapHAT gets powered from connected USB-C connector when USB HAT is installed, despite turning SW9 in off position:
+    - cut the VBUS trace going to J6 pin 1
+

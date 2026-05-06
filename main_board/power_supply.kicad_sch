@@ -5329,7 +5329,19 @@
 		)
 		(uuid "a4800bd5-79af-4bb0-8197-e0ce4f2114e4")
 	)
-	(text "TODO:\nreplace with TPS61023 (this boost's output current is too low)\n(reference to use: https://github.com/adafruit/Adafruit-TPS61023-PCB);\npolymer/electrolytic 100uF at U2 output somewhat helps "
+	(text "TODO:\nfind a power-path charger with bigger output current"
+		(exclude_from_sim no)
+		(at 90.678 178.816 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd9dab6a-d6dd-417e-8e37-c395d8c99ddb")
+	)
+	(text "TODO:\nfind a boost with bigger output current;\nadd a 0R resistor to easily bypass the battery circuit and power \nSnapHAT from USB-C connector"
 		(exclude_from_sim no)
 		(at 204.978 83.312 0)
 		(effects
