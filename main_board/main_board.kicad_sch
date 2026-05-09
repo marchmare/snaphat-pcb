@@ -9597,6 +9597,18 @@
 		)
 		(uuid "d9da665a-c7f6-4407-815c-fb3d35976f7d")
 	)
+	(text "TODO:\nconsider changing 2pin battery connector\nto the pitch installed in the Akyga batteries\nso there's no need to alter the cable"
+		(exclude_from_sim no)
+		(at 172.974 116.078 0)
+		(effects
+			(font
+				(face "Quicksand")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da0e2815-db97-4f6e-a8d0-0cccda8a8811")
+	)
 	(text "Raspberry Pi header"
 		(exclude_from_sim no)
 		(at 93.98 133.35 0)

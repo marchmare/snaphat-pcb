@@ -1,21 +1,28 @@
 # 🌻 SnapHAT - PCB design
 
-![](img/snaphat.png)
+
+<p align="center">
+    <img src="img/snaphat.png" style="max-width: 800px;">
+</p>
 
 SnapHAT is an addon for RaspberryPi Zero 2 W serving as a handheld photo camera device.
 
-This repository contains KiCad 9 design files for the PCBs of the SnapHAT device.
+This repository contains KiCad 9 design files for the PCBs of the SnapHAT device (rev.1.1).
 The boards' layout is prepared to be compatible with JLCPCB standard 2-layer PCB quote.
 
 > [!WARNING] 
 > This repository is work in progress — core features are functional, but the PCB for this device is still evolving and some parts of the design are not yet behaving as I hoped.
 > To avoid unnecessary hardware headaches, check [Troubleshooting and required reworks](#troubleshooting-and-required-reworks) section!
 
+> [!TIP] 
+> Python-based app for this camera can be found in **[this repository](https://github.com/marchmare/snaphat-sw)**.
+
 ### Table of contents:
 
 * [Features](#features)
 * [Repository structure](#repository-structure)
 * [Bill of Materials](#bill-of-materials)
+* [Wire harnesses](#wire-harnesses)
 * [RaspberryPi header connection map](#raspberrypi-header-connection-map)
 * [Troubleshooting and required reworks](#troubleshooting-and-required-reworks)
 
@@ -24,7 +31,7 @@ The boards' layout is prepared to be compatible with JLCPCB standard 2-layer PCB
 * 40-pin Raspberry Pi GPIO header for integration with RaspberryPi Zero 2 W
 * 8-pin PH connector and mounting support for 320x240 Waveshare 18366 2.4" LCD TFT display
 * Usable with ZeroCam OV5647 5MPx wide-angled 120° camera modules or same form-factor alternatives
-* 1200mAh Li-Po battery support (30x40mm cell footprint, 2 pin PH connector), on-board battery charging (MCP73871) and power monitoring (INA219)
+* <del>1200mAh Li-Po battery support (30x40mm cell footprint, 2 pin PH connector), on-board battery charging (MCP73871) and power monitoring (INA219)</del>
 * USB-C charging and OTG connector for RaspberryPi SD card access (USB 2.0)
 * USB OTG pogo-pin breakout board as Raspberry Pi HAT, accessing USB singals through pogo-pins, connected to main board via 4pin FFC cable
 * 8 tactile user interface buttons (navigation and shutter)
@@ -33,7 +40,9 @@ The boards' layout is prepared to be compatible with JLCPCB standard 2-layer PCB
 * exposed debug UART pins
 * flower testpads, because joy and whimsy is in demand
 
-![](img/snaphat_back.png)
+<p align="center">
+    <img src="img/photo1.png" style="max-width: 600px;"><img src="img/photo3.png" style="max-width: 600px;">
+</p>
 
 ## Repository structure
 
@@ -72,6 +81,47 @@ BOMs list PCB components, wire harness components, fasteners as well as OTS modu
 While designing SnapHAT, Farnell and TME were mostly taken into consideration as part vendors, however some parts need to be sourced from elsewhere (this applies mostly to OTS modules). 
 
 Estimated component cost of the whole device is approximately 114 USD.
+
+## Wire harnesses
+
+<p align="center">
+    <img src="img/photo2.png" style="max-width: 600px;">
+</p>
+
+### Display wire harness
+
+To connect the Waveshare 18366 2.4" LCD TFT Display, use an 8-pin JST-PH (2.0 mm pitch) wire harness.
+**This is not a straight-through cable — pin numbering is reversed between connectors.**
+
+Part numbers for building the harness are listed in the main board's BOM and appear in its KiCad schematics as well.
+
+#### Pin mapping:
+
+| SnapHAT J1 | Signal      | LCD PH connector |
+|------------|-------------|------------------|
+| 1          | `3V3 (VCC)` | 8                |
+| 2          | `GND`       | 7                |
+| 3          | `MOSI (DIN)`| 6                |
+| 4          | `SCLK (CLK)`| 5                |
+| 5          | `SPI_CS`    | 4                |
+| 6          | `DC`        | 3                |
+| 7          | `RST`       | 2                |
+| 8          | `BL`        | 1                |
+
+### USB HAT FFC cable
+
+To connect SnapHAT's USB HAT, use 4 core (1.0 mm pitch) >50 mm FFC cable, with **opposite sided contacts**. Proposed part number for this cable is listed in the USB HAT's BOM and appear in its KiCad schematics as well.
+
+SnapHAT and USB HAT both include FFC connectors with top-side contacts (SnapHAT: J6, USB HAT: J1). When plugged in, FFC stiffener should face the PCB on both ends.
+
+#### Pin mapping:
+
+| SnapHAT J6 | Signal        | USB HAT J1 |
+|------------|---------------|------------|
+| 1          | `VBUS`        | 1          |
+| 2          | `USBC_DATA_N` | 2          |
+| 3          | `USBC_DATA_P` | 3          |
+| 4          | `GND`         | 4          |
 
 ## RaspberryPi header connection map
 
